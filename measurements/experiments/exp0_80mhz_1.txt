@@ -1,0 +1,1552 @@
+[2023-09-28 15:38:42.498656] [gNB 0][rsc 0][Rx 0][sfn 934][slot 2] DL PRS ToA ==> -9.0 / 4096 samples, peak channel power -53.4 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.499254] [gNB 1][rsc 0][Rx 0][sfn 934][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -82.8 dBm
+
+[2023-09-28 15:38:42.499785] [gNB 2][rsc 0][Rx 0][sfn 934][slot 4] DL PRS ToA ==> -6.0 / 4096 samples, peak channel power -54.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.500453] [gNB 3][rsc 0][Rx 0][sfn 934][slot 5] DL PRS ToA ==> -7.0 / 4096 samples, peak channel power -55.1 dBm, SNR +4.0 dB, rsrp -77.7 dBm
+
+[2023-09-28 15:38:42.506046] [gNB 0][rsc 0][Rx 0][sfn 935][slot 2] DL PRS ToA ==> -3.0 / 4096 samples, peak channel power -55.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.506590] [gNB 1][rsc 0][Rx 0][sfn 935][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -82.2 dBm
+
+[2023-09-28 15:38:42.507081] [gNB 2][rsc 0][Rx 0][sfn 935][slot 4] DL PRS ToA ==> -1031.0 / 4096 samples, peak channel power -52.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.507616] [gNB 3][rsc 0][Rx 0][sfn 935][slot 5] DL PRS ToA ==> -5.0 / 4096 samples, peak channel power -54.7 dBm, SNR +4.0 dB, rsrp -77.3 dBm
+
+[2023-09-28 15:38:42.513099] [gNB 0][rsc 0][Rx 0][sfn 936][slot 2] DL PRS ToA ==> -7.0 / 4096 samples, peak channel power -53.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.513579] [gNB 1][rsc 0][Rx 0][sfn 936][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -81.3 dBm
+
+[2023-09-28 15:38:42.514053] [gNB 2][rsc 0][Rx 0][sfn 936][slot 4] DL PRS ToA ==> -4.0 / 4096 samples, peak channel power -52.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.514569] [gNB 3][rsc 0][Rx 0][sfn 936][slot 5] DL PRS ToA ==> -5.0 / 4096 samples, peak channel power -54.8 dBm, SNR +4.0 dB, rsrp -76.7 dBm
+
+[2023-09-28 15:38:42.519878] [gNB 0][rsc 0][Rx 0][sfn 937][slot 2] DL PRS ToA ==> -4.0 / 4096 samples, peak channel power -55.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.520355] [gNB 1][rsc 0][Rx 0][sfn 937][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298745.8 dB, rsrp -82.3 dBm
+
+[2023-09-28 15:38:42.520833] [gNB 2][rsc 0][Rx 0][sfn 937][slot 4] DL PRS ToA ==> -2.0 / 4096 samples, peak channel power -53.5 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.521435] [gNB 3][rsc 0][Rx 0][sfn 937][slot 5] DL PRS ToA ==> -3.0 / 4096 samples, peak channel power -56.0 dBm, SNR +4.0 dB, rsrp -76.9 dBm
+
+[2023-09-28 15:38:42.526763] [gNB 0][rsc 0][Rx 0][sfn 938][slot 2] DL PRS ToA ==> -4.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.527231] [gNB 1][rsc 0][Rx 0][sfn 938][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -83.8 dBm
+
+[2023-09-28 15:38:42.527708] [gNB 2][rsc 0][Rx 0][sfn 938][slot 4] DL PRS ToA ==> -6.0 / 4096 samples, peak channel power -53.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.528203] [gNB 3][rsc 0][Rx 0][sfn 938][slot 5] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -88.8 dBm
+
+[2023-09-28 15:38:42.533407] [gNB 0][rsc 0][Rx 0][sfn 939][slot 2] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -52.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.533926] [gNB 1][rsc 0][Rx 0][sfn 939][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -88.9 dBm
+
+[2023-09-28 15:38:42.534402] [gNB 2][rsc 0][Rx 0][sfn 939][slot 4] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -55.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.534891] [gNB 3][rsc 0][Rx 0][sfn 939][slot 5] DL PRS ToA ==> -3.0 / 4096 samples, peak channel power -54.3 dBm, SNR +4.0 dB, rsrp -78.1 dBm
+
+[2023-09-28 15:38:42.540182] [gNB 0][rsc 0][Rx 0][sfn 940][slot 2] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -53.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.540660] [gNB 1][rsc 0][Rx 0][sfn 940][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -97.3 dBm
+
+[2023-09-28 15:38:42.541146] [gNB 2][rsc 0][Rx 0][sfn 940][slot 4] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -56.4 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.541642] [gNB 3][rsc 0][Rx 0][sfn 940][slot 5] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -53.8 dBm, SNR +4.0 dB, rsrp -77.8 dBm
+
+[2023-09-28 15:38:42.546784] [gNB 0][rsc 0][Rx 0][sfn 941][slot 2] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -53.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.547254] [gNB 1][rsc 0][Rx 0][sfn 941][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -90.5 dBm
+
+[2023-09-28 15:38:42.547728] [gNB 2][rsc 0][Rx 0][sfn 941][slot 4] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.548274] [gNB 3][rsc 0][Rx 0][sfn 941][slot 5] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -53.9 dBm, SNR +4.0 dB, rsrp -77.2 dBm
+
+[2023-09-28 15:38:42.553566] [gNB 0][rsc 0][Rx 0][sfn 942][slot 2] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.5 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.554041] [gNB 1][rsc 0][Rx 0][sfn 942][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -84.3 dBm
+
+[2023-09-28 15:38:42.554515] [gNB 2][rsc 0][Rx 0][sfn 942][slot 4] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -56.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.555001] [gNB 3][rsc 0][Rx 0][sfn 942][slot 5] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -54.9 dBm, SNR +4.0 dB, rsrp -76.4 dBm
+
+[2023-09-28 15:38:42.560201] [gNB 0][rsc 0][Rx 0][sfn 943][slot 2] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -55.5 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.560684] [gNB 1][rsc 0][Rx 0][sfn 943][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298741.8 dB, rsrp -83.9 dBm
+
+[2023-09-28 15:38:42.561159] [gNB 2][rsc 0][Rx 0][sfn 943][slot 4] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -53.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.561634] [gNB 3][rsc 0][Rx 0][sfn 943][slot 5] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -55.9 dBm, SNR +4.0 dB, rsrp -76.4 dBm
+
+[2023-09-28 15:38:42.566993] [gNB 0][rsc 0][Rx 0][sfn 944][slot 2] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.567475] [gNB 1][rsc 0][Rx 0][sfn 944][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -84.8 dBm
+
+[2023-09-28 15:38:42.567943] [gNB 2][rsc 0][Rx 0][sfn 944][slot 4] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.568451] [gNB 3][rsc 0][Rx 0][sfn 944][slot 5] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -52.8 dBm, SNR +4.0 dB, rsrp -76.8 dBm
+
+[2023-09-28 15:38:42.573537] [gNB 0][rsc 0][Rx 0][sfn 945][slot 2] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -53.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.574043] [gNB 1][rsc 0][Rx 0][sfn 945][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298742.0 dB, rsrp -84.6 dBm
+
+[2023-09-28 15:38:42.574523] [gNB 2][rsc 0][Rx 0][sfn 945][slot 4] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -55.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.575064] [gNB 3][rsc 0][Rx 0][sfn 945][slot 5] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -53.7 dBm, SNR +4.0 dB, rsrp -76.9 dBm
+
+[2023-09-28 15:38:42.580411] [gNB 0][rsc 0][Rx 0][sfn 946][slot 2] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -53.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.580902] [gNB 1][rsc 0][Rx 0][sfn 946][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -85.6 dBm
+
+[2023-09-28 15:38:42.581384] [gNB 2][rsc 0][Rx 0][sfn 946][slot 4] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -56.4 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.581905] [gNB 3][rsc 0][Rx 0][sfn 946][slot 5] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -55.1 dBm, SNR +4.0 dB, rsrp -76.4 dBm
+
+[2023-09-28 15:38:42.587156] [gNB 0][rsc 0][Rx 0][sfn 947][slot 2] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -54.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.587642] [gNB 1][rsc 0][Rx 0][sfn 947][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -86.0 dBm
+
+[2023-09-28 15:38:42.588131] [gNB 2][rsc 0][Rx 0][sfn 947][slot 4] DL PRS ToA ==> 7.0 / 4096 samples, peak channel power -54.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.588731] [gNB 3][rsc 0][Rx 0][sfn 947][slot 5] DL PRS ToA ==> 7.0 / 4096 samples, peak channel power -55.4 dBm, SNR +4.0 dB, rsrp -76.9 dBm
+
+[2023-09-28 15:38:42.593992] [gNB 0][rsc 0][Rx 0][sfn 948][slot 2] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -54.4 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.594526] [gNB 1][rsc 0][Rx 0][sfn 948][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -86.3 dBm
+
+[2023-09-28 15:38:42.595009] [gNB 2][rsc 0][Rx 0][sfn 948][slot 4] DL PRS ToA ==> 7.0 / 4096 samples, peak channel power -54.5 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.595559] [gNB 3][rsc 0][Rx 0][sfn 948][slot 5] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp -78.0 dBm
+
+[2023-09-28 15:38:42.600861] [gNB 0][rsc 0][Rx 0][sfn 949][slot 2] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -54.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.601348] [gNB 1][rsc 0][Rx 0][sfn 949][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -94.1 dBm
+
+[2023-09-28 15:38:42.601834] [gNB 2][rsc 0][Rx 0][sfn 949][slot 4] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -54.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.602319] [gNB 3][rsc 0][Rx 0][sfn 949][slot 5] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -53.6 dBm, SNR +4.0 dB, rsrp -77.4 dBm
+
+[2023-09-28 15:38:42.607731] [gNB 0][rsc 0][Rx 0][sfn 950][slot 2] DL PRS ToA ==> 7.0 / 4096 samples, peak channel power -54.6 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.608223] [gNB 1][rsc 0][Rx 0][sfn 950][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298741.2 dB, rsrp -82.9 dBm
+
+[2023-09-28 15:38:42.608732] [gNB 2][rsc 0][Rx 0][sfn 950][slot 4] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.609250] [gNB 3][rsc 0][Rx 0][sfn 950][slot 5] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -53.9 dBm, SNR +4.0 dB, rsrp -77.4 dBm
+
+[2023-09-28 15:38:42.614578] [gNB 0][rsc 0][Rx 0][sfn 951][slot 2] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -54.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.615083] [gNB 1][rsc 0][Rx 0][sfn 951][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -82.5 dBm
+
+[2023-09-28 15:38:42.615568] [gNB 2][rsc 0][Rx 0][sfn 951][slot 4] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -55.6 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.616074] [gNB 3][rsc 0][Rx 0][sfn 951][slot 5] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -55.1 dBm, SNR +4.0 dB, rsrp -77.7 dBm
+
+[2023-09-28 15:38:42.621456] [gNB 0][rsc 0][Rx 0][sfn 952][slot 2] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -54.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.621940] [gNB 1][rsc 0][Rx 0][sfn 952][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -82.9 dBm
+
+[2023-09-28 15:38:42.622428] [gNB 2][rsc 0][Rx 0][sfn 952][slot 4] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -55.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.622957] [gNB 3][rsc 0][Rx 0][sfn 952][slot 5] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -54.7 dBm, SNR +4.0 dB, rsrp -77.3 dBm
+
+[2023-09-28 15:38:42.628284] [gNB 0][rsc 0][Rx 0][sfn 953][slot 2] DL PRS ToA ==> 8.0 / 4096 samples, peak channel power -54.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.628789] [gNB 1][rsc 0][Rx 0][sfn 953][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298741.0 dB, rsrp -82.3 dBm
+
+[2023-09-28 15:38:42.629280] [gNB 2][rsc 0][Rx 0][sfn 953][slot 4] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.629832] [gNB 3][rsc 0][Rx 0][sfn 953][slot 5] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -54.5 dBm, SNR +4.0 dB, rsrp -76.9 dBm
+
+[2023-09-28 15:38:42.635165] [gNB 0][rsc 0][Rx 0][sfn 954][slot 2] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -55.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.635649] [gNB 1][rsc 0][Rx 0][sfn 954][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -82.1 dBm
+
+[2023-09-28 15:38:42.636127] [gNB 2][rsc 0][Rx 0][sfn 954][slot 4] DL PRS ToA ==> 7.0 / 4096 samples, peak channel power -53.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.636817] [gNB 3][rsc 0][Rx 0][sfn 954][slot 5] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -55.7 dBm, SNR +4.0 dB, rsrp -76.7 dBm
+
+[2023-09-28 15:38:42.642031] [gNB 0][rsc 0][Rx 0][sfn 955][slot 2] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -53.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.642523] [gNB 1][rsc 0][Rx 0][sfn 955][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -81.5 dBm
+
+[2023-09-28 15:38:42.643007] [gNB 2][rsc 0][Rx 0][sfn 955][slot 4] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -53.6 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.643508] [gNB 3][rsc 0][Rx 0][sfn 955][slot 5] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -54.9 dBm, SNR +4.0 dB, rsrp -76.8 dBm
+
+[2023-09-28 15:38:42.648932] [gNB 0][rsc 0][Rx 0][sfn 956][slot 2] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -53.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.649420] [gNB 1][rsc 0][Rx 0][sfn 956][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -82.6 dBm
+
+[2023-09-28 15:38:42.649907] [gNB 2][rsc 0][Rx 0][sfn 956][slot 4] DL PRS ToA ==> 1029.0 / 4096 samples, peak channel power -52.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.650489] [gNB 3][rsc 0][Rx 0][sfn 956][slot 5] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -54.2 dBm, SNR +4.0 dB, rsrp -77.4 dBm
+
+[2023-09-28 15:38:42.655773] [gNB 0][rsc 0][Rx 0][sfn 957][slot 2] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -53.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.656244] [gNB 1][rsc 0][Rx 0][sfn 957][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -85.2 dBm
+
+[2023-09-28 15:38:42.656739] [gNB 2][rsc 0][Rx 0][sfn 957][slot 4] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -54.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.657214] [gNB 3][rsc 0][Rx 0][sfn 957][slot 5] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -53.9 dBm, SNR +4.0 dB, rsrp -77.8 dBm
+
+[2023-09-28 15:38:42.662468] [gNB 0][rsc 0][Rx 0][sfn 958][slot 2] DL PRS ToA ==> 8.0 / 4096 samples, peak channel power -53.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.662945] [gNB 1][rsc 0][Rx 0][sfn 958][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -89.4 dBm
+
+[2023-09-28 15:38:42.663465] [gNB 2][rsc 0][Rx 0][sfn 958][slot 4] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -55.5 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.663963] [gNB 3][rsc 0][Rx 0][sfn 958][slot 5] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -53.9 dBm, SNR +4.0 dB, rsrp -78.0 dBm
+
+[2023-09-28 15:38:42.669112] [gNB 0][rsc 0][Rx 0][sfn 959][slot 2] DL PRS ToA ==> 8.0 / 4096 samples, peak channel power -54.6 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.669600] [gNB 1][rsc 0][Rx 0][sfn 959][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -96.0 dBm
+
+[2023-09-28 15:38:42.670087] [gNB 2][rsc 0][Rx 0][sfn 959][slot 4] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -54.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.670570] [gNB 3][rsc 0][Rx 0][sfn 959][slot 5] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -55.1 dBm, SNR +4.0 dB, rsrp -77.9 dBm
+
+[2023-09-28 15:38:42.675799] [gNB 0][rsc 0][Rx 0][sfn 960][slot 2] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -55.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.676269] [gNB 1][rsc 0][Rx 0][sfn 960][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -93.3 dBm
+
+[2023-09-28 15:38:42.676746] [gNB 2][rsc 0][Rx 0][sfn 960][slot 4] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.677319] [gNB 3][rsc 0][Rx 0][sfn 960][slot 5] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -55.6 dBm, SNR +4.0 dB, rsrp -77.5 dBm
+
+[2023-09-28 15:38:42.682450] [gNB 0][rsc 0][Rx 0][sfn 961][slot 2] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -53.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.682940] [gNB 1][rsc 0][Rx 0][sfn 961][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298745.2 dB, rsrp -86.4 dBm
+
+[2023-09-28 15:38:42.683412] [gNB 2][rsc 0][Rx 0][sfn 961][slot 4] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.4 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.683945] [gNB 3][rsc 0][Rx 0][sfn 961][slot 5] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -52.4 dBm, SNR +4.0 dB, rsrp -76.9 dBm
+
+[2023-09-28 15:38:42.689055] [gNB 0][rsc 0][Rx 0][sfn 962][slot 2] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -52.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.689585] [gNB 1][rsc 0][Rx 0][sfn 962][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -83.3 dBm
+
+[2023-09-28 15:38:42.690052] [gNB 2][rsc 0][Rx 0][sfn 962][slot 4] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -54.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.690625] [gNB 3][rsc 0][Rx 0][sfn 962][slot 5] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -54.8 dBm, SNR +4.0 dB, rsrp -77.3 dBm
+
+[2023-09-28 15:38:42.695830] [gNB 0][rsc 0][Rx 0][sfn 963][slot 2] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.6 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.696305] [gNB 1][rsc 0][Rx 0][sfn 963][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -86.1 dBm
+
+[2023-09-28 15:38:42.696841] [gNB 2][rsc 0][Rx 0][sfn 963][slot 4] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -53.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.697337] [gNB 3][rsc 0][Rx 0][sfn 963][slot 5] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -55.1 dBm, SNR +4.0 dB, rsrp -77.2 dBm
+
+[2023-09-28 15:38:42.702584] [gNB 0][rsc 0][Rx 0][sfn 964][slot 2] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -54.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.703062] [gNB 1][rsc 0][Rx 0][sfn 964][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -86.6 dBm
+
+[2023-09-28 15:38:42.703533] [gNB 2][rsc 0][Rx 0][sfn 964][slot 4] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -54.4 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.704044] [gNB 3][rsc 0][Rx 0][sfn 964][slot 5] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -55.3 dBm, SNR +4.0 dB, rsrp -77.2 dBm
+
+[2023-09-28 15:38:42.709182] [gNB 0][rsc 0][Rx 0][sfn 965][slot 2] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -54.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.709661] [gNB 1][rsc 0][Rx 0][sfn 965][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -87.4 dBm
+
+[2023-09-28 15:38:42.710178] [gNB 2][rsc 0][Rx 0][sfn 965][slot 4] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -54.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.710737] [gNB 3][rsc 0][Rx 0][sfn 965][slot 5] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -53.8 dBm, SNR +4.0 dB, rsrp -77.2 dBm
+
+[2023-09-28 15:38:42.715974] [gNB 0][rsc 0][Rx 0][sfn 966][slot 2] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -54.5 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.716450] [gNB 1][rsc 0][Rx 0][sfn 966][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -87.2 dBm
+
+[2023-09-28 15:38:42.716927] [gNB 2][rsc 0][Rx 0][sfn 966][slot 4] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -55.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.717423] [gNB 3][rsc 0][Rx 0][sfn 966][slot 5] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -53.5 dBm, SNR +4.0 dB, rsrp -77.3 dBm
+
+[2023-09-28 15:38:42.722595] [gNB 0][rsc 0][Rx 0][sfn 967][slot 2] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.723071] [gNB 1][rsc 0][Rx 0][sfn 967][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298741.2 dB, rsrp -86.3 dBm
+
+[2023-09-28 15:38:42.723544] [gNB 2][rsc 0][Rx 0][sfn 967][slot 4] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -54.4 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.724025] [gNB 3][rsc 0][Rx 0][sfn 967][slot 5] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -55.3 dBm, SNR +4.0 dB, rsrp -76.7 dBm
+
+[2023-09-28 15:38:42.729310] [gNB 0][rsc 0][Rx 0][sfn 968][slot 2] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -54.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.729804] [gNB 1][rsc 0][Rx 0][sfn 968][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -84.0 dBm
+
+[2023-09-28 15:38:42.730275] [gNB 2][rsc 0][Rx 0][sfn 968][slot 4] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -53.4 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.730769] [gNB 3][rsc 0][Rx 0][sfn 968][slot 5] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -55.0 dBm, SNR +4.0 dB, rsrp -77.6 dBm
+
+[2023-09-28 15:38:42.736110] [gNB 0][rsc 0][Rx 0][sfn 969][slot 2] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -53.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.736601] [gNB 1][rsc 0][Rx 0][sfn 969][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -91.0 dBm
+
+[2023-09-28 15:38:42.737089] [gNB 2][rsc 0][Rx 0][sfn 969][slot 4] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -52.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.737605] [gNB 3][rsc 0][Rx 0][sfn 969][slot 5] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.7 dBm, SNR +4.0 dB, rsrp -78.0 dBm
+
+[2023-09-28 15:38:42.742981] [gNB 0][rsc 0][Rx 0][sfn 970][slot 2] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -53.5 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.743519] [gNB 1][rsc 0][Rx 0][sfn 970][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -92.4 dBm
+
+[2023-09-28 15:38:42.744000] [gNB 2][rsc 0][Rx 0][sfn 970][slot 4] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -55.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.744502] [gNB 3][rsc 0][Rx 0][sfn 970][slot 5] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -54.3 dBm, SNR +4.0 dB, rsrp -77.4 dBm
+
+[2023-09-28 15:38:42.749804] [gNB 0][rsc 0][Rx 0][sfn 971][slot 2] DL PRS ToA ==> 7.0 / 4096 samples, peak channel power -54.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.750292] [gNB 1][rsc 0][Rx 0][sfn 971][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -83.7 dBm
+
+[2023-09-28 15:38:42.750779] [gNB 2][rsc 0][Rx 0][sfn 971][slot 4] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.751265] [gNB 3][rsc 0][Rx 0][sfn 971][slot 5] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp -76.9 dBm
+
+[2023-09-28 15:38:42.756649] [gNB 0][rsc 0][Rx 0][sfn 972][slot 2] DL PRS ToA ==> 7.0 / 4096 samples, peak channel power -54.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.757149] [gNB 1][rsc 0][Rx 0][sfn 972][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -86.4 dBm
+
+[2023-09-28 15:38:42.757640] [gNB 2][rsc 0][Rx 0][sfn 972][slot 4] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -55.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.758160] [gNB 3][rsc 0][Rx 0][sfn 972][slot 5] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -54.8 dBm, SNR +4.0 dB, rsrp -77.1 dBm
+
+[2023-09-28 15:38:42.763446] [gNB 0][rsc 0][Rx 0][sfn 973][slot 2] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -53.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.763935] [gNB 1][rsc 0][Rx 0][sfn 973][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -86.5 dBm
+
+[2023-09-28 15:38:42.764414] [gNB 2][rsc 0][Rx 0][sfn 973][slot 4] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -53.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.764919] [gNB 3][rsc 0][Rx 0][sfn 973][slot 5] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.6 dBm, SNR +4.0 dB, rsrp -77.3 dBm
+
+[2023-09-28 15:38:42.770357] [gNB 0][rsc 0][Rx 0][sfn 974][slot 2] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.770846] [gNB 1][rsc 0][Rx 0][sfn 974][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -85.9 dBm
+
+[2023-09-28 15:38:42.771329] [gNB 2][rsc 0][Rx 0][sfn 974][slot 4] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.771860] [gNB 3][rsc 0][Rx 0][sfn 974][slot 5] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -85.5 dBm
+
+[2023-09-28 15:38:42.777207] [gNB 0][rsc 0][Rx 0][sfn 975][slot 2] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -52.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.777702] [gNB 1][rsc 0][Rx 0][sfn 975][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -85.5 dBm
+
+[2023-09-28 15:38:42.778191] [gNB 2][rsc 0][Rx 0][sfn 975][slot 4] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -55.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.778757] [gNB 3][rsc 0][Rx 0][sfn 975][slot 5] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -53.9 dBm, SNR +4.0 dB, rsrp -77.3 dBm
+
+[2023-09-28 15:38:42.784157] [gNB 0][rsc 0][Rx 0][sfn 976][slot 2] DL PRS ToA ==> 7.0 / 4096 samples, peak channel power -53.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.784650] [gNB 1][rsc 0][Rx 0][sfn 976][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298743.0 dB, rsrp -83.8 dBm
+
+[2023-09-28 15:38:42.785141] [gNB 2][rsc 0][Rx 0][sfn 976][slot 4] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -55.6 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.785659] [gNB 3][rsc 0][Rx 0][sfn 976][slot 5] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -54.3 dBm, SNR +4.0 dB, rsrp -77.7 dBm
+
+[2023-09-28 15:38:42.790970] [gNB 0][rsc 0][Rx 0][sfn 977][slot 2] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.791458] [gNB 1][rsc 0][Rx 0][sfn 977][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -97.1 dBm
+
+[2023-09-28 15:38:42.791943] [gNB 2][rsc 0][Rx 0][sfn 977][slot 4] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -54.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.792462] [gNB 3][rsc 0][Rx 0][sfn 977][slot 5] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -55.9 dBm, SNR +4.0 dB, rsrp -77.8 dBm
+
+[2023-09-28 15:38:42.797848] [gNB 0][rsc 0][Rx 0][sfn 978][slot 2] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -54.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.798340] [gNB 1][rsc 0][Rx 0][sfn 978][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -84.7 dBm
+
+[2023-09-28 15:38:42.798823] [gNB 2][rsc 0][Rx 0][sfn 978][slot 4] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.799340] [gNB 3][rsc 0][Rx 0][sfn 978][slot 5] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -52.5 dBm, SNR +4.0 dB, rsrp -77.3 dBm
+
+[2023-09-28 15:38:42.804710] [gNB 0][rsc 0][Rx 0][sfn 979][slot 2] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -53.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.805196] [gNB 1][rsc 0][Rx 0][sfn 979][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298744.8 dB, rsrp -81.0 dBm
+
+[2023-09-28 15:38:42.805682] [gNB 2][rsc 0][Rx 0][sfn 979][slot 4] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.806189] [gNB 3][rsc 0][Rx 0][sfn 979][slot 5] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.7 dBm, SNR +4.0 dB, rsrp -77.6 dBm
+
+[2023-09-28 15:38:42.811530] [gNB 0][rsc 0][Rx 0][sfn 980][slot 2] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.4 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.812004] [gNB 1][rsc 0][Rx 0][sfn 980][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -82.9 dBm
+
+[2023-09-28 15:38:42.812479] [gNB 2][rsc 0][Rx 0][sfn 980][slot 4] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -53.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.813000] [gNB 3][rsc 0][Rx 0][sfn 980][slot 5] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -55.2 dBm, SNR +4.0 dB, rsrp -77.4 dBm
+
+[2023-09-28 15:38:42.818186] [gNB 0][rsc 0][Rx 0][sfn 981][slot 2] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.6 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.818661] [gNB 1][rsc 0][Rx 0][sfn 981][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -82.0 dBm
+
+[2023-09-28 15:38:42.819128] [gNB 2][rsc 0][Rx 0][sfn 981][slot 4] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -54.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.819651] [gNB 3][rsc 0][Rx 0][sfn 981][slot 5] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.7 dBm, SNR +4.0 dB, rsrp -77.2 dBm
+
+[2023-09-28 15:38:42.824906] [gNB 0][rsc 0][Rx 0][sfn 982][slot 2] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -55.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.825385] [gNB 1][rsc 0][Rx 0][sfn 982][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298741.8 dB, rsrp -81.8 dBm
+
+[2023-09-28 15:38:42.825858] [gNB 2][rsc 0][Rx 0][sfn 982][slot 4] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.826368] [gNB 3][rsc 0][Rx 0][sfn 982][slot 5] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -53.8 dBm, SNR +4.0 dB, rsrp -77.2 dBm
+
+[2023-09-28 15:38:42.831544] [gNB 0][rsc 0][Rx 0][sfn 983][slot 2] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -53.5 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.832017] [gNB 1][rsc 0][Rx 0][sfn 983][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298741.8 dB, rsrp -90.8 dBm
+
+[2023-09-28 15:38:42.832492] [gNB 2][rsc 0][Rx 0][sfn 983][slot 4] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -54.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.833056] [gNB 3][rsc 0][Rx 0][sfn 983][slot 5] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.9 dBm, SNR +4.0 dB, rsrp -78.0 dBm
+
+[2023-09-28 15:38:42.838226] [gNB 0][rsc 0][Rx 0][sfn 984][slot 2] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.838752] [gNB 1][rsc 0][Rx 0][sfn 984][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -90.3 dBm
+
+[2023-09-28 15:38:42.839225] [gNB 2][rsc 0][Rx 0][sfn 984][slot 4] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -53.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.839718] [gNB 3][rsc 0][Rx 0][sfn 984][slot 5] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -55.5 dBm, SNR +4.0 dB, rsrp -77.2 dBm
+
+[2023-09-28 15:38:42.844936] [gNB 0][rsc 0][Rx 0][sfn 985][slot 2] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -53.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.845417] [gNB 1][rsc 0][Rx 0][sfn 985][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -82.4 dBm
+
+[2023-09-28 15:38:42.845890] [gNB 2][rsc 0][Rx 0][sfn 985][slot 4] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -55.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.846367] [gNB 3][rsc 0][Rx 0][sfn 985][slot 5] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -53.7 dBm, SNR +4.0 dB, rsrp -77.5 dBm
+
+[2023-09-28 15:38:42.851869] [gNB 0][rsc 0][Rx 0][sfn 986][slot 2] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -55.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.852345] [gNB 1][rsc 0][Rx 0][sfn 986][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -81.4 dBm
+
+[2023-09-28 15:38:42.852822] [gNB 2][rsc 0][Rx 0][sfn 986][slot 4] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.853293] [gNB 3][rsc 0][Rx 0][sfn 986][slot 5] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.6 dBm, SNR +4.0 dB, rsrp -77.6 dBm
+
+[2023-09-28 15:38:42.858534] [gNB 0][rsc 0][Rx 0][sfn 987][slot 2] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -54.6 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.859004] [gNB 1][rsc 0][Rx 0][sfn 987][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298741.2 dB, rsrp -82.1 dBm
+
+[2023-09-28 15:38:42.859477] [gNB 2][rsc 0][Rx 0][sfn 987][slot 4] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -54.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.860071] [gNB 3][rsc 0][Rx 0][sfn 987][slot 5] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -54.4 dBm, SNR +4.0 dB, rsrp -77.7 dBm
+
+[2023-09-28 15:38:42.865307] [gNB 0][rsc 0][Rx 0][sfn 988][slot 2] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.865786] [gNB 1][rsc 0][Rx 0][sfn 988][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -83.4 dBm
+
+[2023-09-28 15:38:42.866260] [gNB 2][rsc 0][Rx 0][sfn 988][slot 4] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -53.5 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.866767] [gNB 3][rsc 0][Rx 0][sfn 988][slot 5] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -55.7 dBm, SNR +4.0 dB, rsrp -77.7 dBm
+
+[2023-09-28 15:38:42.871950] [gNB 0][rsc 0][Rx 0][sfn 989][slot 2] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -52.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.872426] [gNB 1][rsc 0][Rx 0][sfn 989][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -84.9 dBm
+
+[2023-09-28 15:38:42.872903] [gNB 2][rsc 0][Rx 0][sfn 989][slot 4] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -54.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.873484] [gNB 3][rsc 0][Rx 0][sfn 989][slot 5] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -54.0 dBm, SNR +4.0 dB, rsrp -77.5 dBm
+
+[2023-09-28 15:38:42.878673] [gNB 0][rsc 0][Rx 0][sfn 990][slot 2] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -53.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.879142] [gNB 1][rsc 0][Rx 0][sfn 990][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -85.8 dBm
+
+[2023-09-28 15:38:42.879614] [gNB 2][rsc 0][Rx 0][sfn 990][slot 4] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -55.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.880116] [gNB 3][rsc 0][Rx 0][sfn 990][slot 5] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -53.8 dBm, SNR +4.0 dB, rsrp -77.1 dBm
+
+[2023-09-28 15:38:42.885221] [gNB 0][rsc 0][Rx 0][sfn 991][slot 2] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -54.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.885699] [gNB 1][rsc 0][Rx 0][sfn 991][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298742.0 dB, rsrp -83.7 dBm
+
+[2023-09-28 15:38:42.886181] [gNB 2][rsc 0][Rx 0][sfn 991][slot 4] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -55.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.886750] [gNB 3][rsc 0][Rx 0][sfn 991][slot 5] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -55.3 dBm, SNR +4.0 dB, rsrp -77.3 dBm
+
+[2023-09-28 15:38:42.892032] [gNB 0][rsc 0][Rx 0][sfn 992][slot 2] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -52.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.892523] [gNB 1][rsc 0][Rx 0][sfn 992][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298743.8 dB, rsrp -86.4 dBm
+
+[2023-09-28 15:38:42.893004] [gNB 2][rsc 0][Rx 0][sfn 992][slot 4] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -53.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.893607] [gNB 3][rsc 0][Rx 0][sfn 992][slot 5] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.8 dBm, SNR +4.0 dB, rsrp -77.9 dBm
+
+[2023-09-28 15:38:42.898895] [gNB 0][rsc 0][Rx 0][sfn 993][slot 2] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -53.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.899384] [gNB 1][rsc 0][Rx 0][sfn 993][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -92.7 dBm
+
+[2023-09-28 15:38:42.899869] [gNB 2][rsc 0][Rx 0][sfn 993][slot 4] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -56.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.900406] [gNB 3][rsc 0][Rx 0][sfn 993][slot 5] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -52.8 dBm, SNR +4.0 dB, rsrp -78.0 dBm
+
+[2023-09-28 15:38:42.905767] [gNB 0][rsc 0][Rx 0][sfn 994][slot 2] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -54.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.906257] [gNB 1][rsc 0][Rx 0][sfn 994][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -95.6 dBm
+
+[2023-09-28 15:38:42.906741] [gNB 2][rsc 0][Rx 0][sfn 994][slot 4] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.5 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.907234] [gNB 3][rsc 0][Rx 0][sfn 994][slot 5] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp -77.6 dBm
+
+[2023-09-28 15:38:42.912564] [gNB 0][rsc 0][Rx 0][sfn 995][slot 2] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.913048] [gNB 1][rsc 0][Rx 0][sfn 995][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -90.4 dBm
+
+[2023-09-28 15:38:42.913536] [gNB 2][rsc 0][Rx 0][sfn 995][slot 4] DL PRS ToA ==> 1027.0 / 4096 samples, peak channel power -52.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.914024] [gNB 3][rsc 0][Rx 0][sfn 995][slot 5] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -55.6 dBm, SNR +4.0 dB, rsrp -77.2 dBm
+
+[2023-09-28 15:38:42.919293] [gNB 0][rsc 0][Rx 0][sfn 996][slot 2] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.919787] [gNB 1][rsc 0][Rx 0][sfn 996][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -86.7 dBm
+
+[2023-09-28 15:38:42.920275] [gNB 2][rsc 0][Rx 0][sfn 996][slot 4] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.920834] [gNB 3][rsc 0][Rx 0][sfn 996][slot 5] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -52.3 dBm, SNR +4.0 dB, rsrp -76.8 dBm
+
+[2023-09-28 15:38:42.926212] [gNB 0][rsc 0][Rx 0][sfn 997][slot 2] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -52.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.926700] [gNB 1][rsc 0][Rx 0][sfn 997][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -84.1 dBm
+
+[2023-09-28 15:38:42.927181] [gNB 2][rsc 0][Rx 0][sfn 997][slot 4] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -56.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.927798] [gNB 3][rsc 0][Rx 0][sfn 997][slot 5] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -55.0 dBm, SNR +4.0 dB, rsrp -76.4 dBm
+
+[2023-09-28 15:38:42.933172] [gNB 0][rsc 0][Rx 0][sfn 998][slot 2] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.933658] [gNB 1][rsc 0][Rx 0][sfn 998][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -82.4 dBm
+
+[2023-09-28 15:38:42.934143] [gNB 2][rsc 0][Rx 0][sfn 998][slot 4] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.4 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.934655] [gNB 3][rsc 0][Rx 0][sfn 998][slot 5] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -55.2 dBm, SNR +4.0 dB, rsrp -76.8 dBm
+
+[2023-09-28 15:38:42.939891] [gNB 0][rsc 0][Rx 0][sfn 999][slot 2] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.6 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.940420] [gNB 1][rsc 0][Rx 0][sfn 999][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -81.1 dBm
+
+[2023-09-28 15:38:42.940908] [gNB 2][rsc 0][Rx 0][sfn 999][slot 4] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -55.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.941487] [gNB 3][rsc 0][Rx 0][sfn 999][slot 5] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -53.7 dBm, SNR +4.0 dB, rsrp -77.6 dBm
+
+[2023-09-28 15:38:42.946854] [gNB 0][rsc 0][Rx 0][sfn 1000][slot 2] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -53.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.947343] [gNB 1][rsc 0][Rx 0][sfn 1000][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -85.2 dBm
+
+[2023-09-28 15:38:42.947819] [gNB 2][rsc 0][Rx 0][sfn 1000][slot 4] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.948314] [gNB 3][rsc 0][Rx 0][sfn 1000][slot 5] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -55.5 dBm, SNR +4.0 dB, rsrp -77.3 dBm
+
+[2023-09-28 15:38:42.953581] [gNB 0][rsc 0][Rx 0][sfn 1001][slot 2] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.954072] [gNB 1][rsc 0][Rx 0][sfn 1001][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -86.5 dBm
+
+[2023-09-28 15:38:42.954558] [gNB 2][rsc 0][Rx 0][sfn 1001][slot 4] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.955051] [gNB 3][rsc 0][Rx 0][sfn 1001][slot 5] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -54.7 dBm, SNR +4.0 dB, rsrp -76.8 dBm
+
+[2023-09-28 15:38:42.960400] [gNB 0][rsc 0][Rx 0][sfn 1002][slot 2] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -54.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.960947] [gNB 1][rsc 0][Rx 0][sfn 1002][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -82.2 dBm
+
+[2023-09-28 15:38:42.961436] [gNB 2][rsc 0][Rx 0][sfn 1002][slot 4] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.961972] [gNB 3][rsc 0][Rx 0][sfn 1002][slot 5] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -55.3 dBm, SNR +4.0 dB, rsrp -76.7 dBm
+
+[2023-09-28 15:38:42.967148] [gNB 0][rsc 0][Rx 0][sfn 1003][slot 2] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.6 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.967621] [gNB 1][rsc 0][Rx 0][sfn 1003][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -82.5 dBm
+
+[2023-09-28 15:38:42.968092] [gNB 2][rsc 0][Rx 0][sfn 1003][slot 4] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -53.6 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.968669] [gNB 3][rsc 0][Rx 0][sfn 1003][slot 5] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -55.0 dBm, SNR +4.0 dB, rsrp -77.4 dBm
+
+[2023-09-28 15:38:42.973794] [gNB 0][rsc 0][Rx 0][sfn 1004][slot 2] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -53.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.974281] [gNB 1][rsc 0][Rx 0][sfn 1004][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -83.5 dBm
+
+[2023-09-28 15:38:42.974756] [gNB 2][rsc 0][Rx 0][sfn 1004][slot 4] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.6 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.975253] [gNB 3][rsc 0][Rx 0][sfn 1004][slot 5] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.4 dBm, SNR +4.0 dB, rsrp -77.5 dBm
+
+[2023-09-28 15:38:42.980391] [gNB 0][rsc 0][Rx 0][sfn 1005][slot 2] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -54.5 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.980872] [gNB 1][rsc 0][Rx 0][sfn 1005][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -83.1 dBm
+
+[2023-09-28 15:38:42.981347] [gNB 2][rsc 0][Rx 0][sfn 1005][slot 4] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -55.6 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.981931] [gNB 3][rsc 0][Rx 0][sfn 1005][slot 5] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.3 dBm, SNR +4.0 dB, rsrp -77.6 dBm
+
+[2023-09-28 15:38:42.987059] [gNB 0][rsc 0][Rx 0][sfn 1006][slot 2] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.987532] [gNB 1][rsc 0][Rx 0][sfn 1006][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -98.0 dBm
+
+[2023-09-28 15:38:42.988006] [gNB 2][rsc 0][Rx 0][sfn 1006][slot 4] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -53.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.988595] [gNB 3][rsc 0][Rx 0][sfn 1006][slot 5] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -53.7 dBm, SNR +4.0 dB, rsrp -77.7 dBm
+
+[2023-09-28 15:38:42.993692] [gNB 0][rsc 0][Rx 0][sfn 1007][slot 2] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -53.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.994195] [gNB 1][rsc 0][Rx 0][sfn 1007][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -83.1 dBm
+
+[2023-09-28 15:38:42.994669] [gNB 2][rsc 0][Rx 0][sfn 1007][slot 4] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.5 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:42.995143] [gNB 3][rsc 0][Rx 0][sfn 1007][slot 5] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -53.9 dBm, SNR +4.0 dB, rsrp -76.7 dBm
+
+[2023-09-28 15:38:43.000453] [gNB 0][rsc 0][Rx 0][sfn 1008][slot 2] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -53.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.000933] [gNB 1][rsc 0][Rx 0][sfn 1008][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -86.8 dBm
+
+[2023-09-28 15:38:43.001404] [gNB 2][rsc 0][Rx 0][sfn 1008][slot 4] DL PRS ToA ==> 1027.0 / 4096 samples, peak channel power -52.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.001905] [gNB 3][rsc 0][Rx 0][sfn 1008][slot 5] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp -76.8 dBm
+
+[2023-09-28 15:38:43.007205] [gNB 0][rsc 0][Rx 0][sfn 1009][slot 2] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -53.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.007675] [gNB 1][rsc 0][Rx 0][sfn 1009][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298741.8 dB, rsrp -85.4 dBm
+
+[2023-09-28 15:38:43.008151] [gNB 2][rsc 0][Rx 0][sfn 1009][slot 4] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.008626] [gNB 3][rsc 0][Rx 0][sfn 1009][slot 5] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -53.9 dBm, SNR +4.0 dB, rsrp -76.3 dBm
+
+[2023-09-28 15:38:43.013891] [gNB 0][rsc 0][Rx 0][sfn 1010][slot 2] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -52.4 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.014370] [gNB 1][rsc 0][Rx 0][sfn 1010][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -83.4 dBm
+
+[2023-09-28 15:38:43.014851] [gNB 2][rsc 0][Rx 0][sfn 1010][slot 4] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -53.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.015336] [gNB 3][rsc 0][Rx 0][sfn 1010][slot 5] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -53.9 dBm, SNR +4.0 dB, rsrp -77.7 dBm
+
+[2023-09-28 15:38:43.020483] [gNB 0][rsc 0][Rx 0][sfn 1011][slot 2] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -53.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.020961] [gNB 1][rsc 0][Rx 0][sfn 1011][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -88.8 dBm
+
+[2023-09-28 15:38:43.021432] [gNB 2][rsc 0][Rx 0][sfn 1011][slot 4] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.021937] [gNB 3][rsc 0][Rx 0][sfn 1011][slot 5] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.0 dBm, SNR +4.0 dB, rsrp -76.9 dBm
+
+[2023-09-28 15:38:43.027112] [gNB 0][rsc 0][Rx 0][sfn 1012][slot 2] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.027636] [gNB 1][rsc 0][Rx 0][sfn 1012][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298741.5 dB, rsrp -86.1 dBm
+
+[2023-09-28 15:38:43.028113] [gNB 2][rsc 0][Rx 0][sfn 1012][slot 4] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.028596] [gNB 3][rsc 0][Rx 0][sfn 1012][slot 5] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.4 dBm, SNR +4.0 dB, rsrp -76.7 dBm
+
+[2023-09-28 15:38:43.033769] [gNB 0][rsc 0][Rx 0][sfn 1013][slot 2] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -53.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.034263] [gNB 1][rsc 0][Rx 0][sfn 1013][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -86.8 dBm
+
+[2023-09-28 15:38:43.043643] [gNB 2][rsc 0][Rx 0][sfn 1013][slot 4] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.044176] [gNB 3][rsc 0][Rx 0][sfn 1013][slot 5] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.3 dBm, SNR +4.0 dB, rsrp -76.7 dBm
+
+[2023-09-28 15:38:43.049586] [gNB 0][rsc 0][Rx 0][sfn 1014][slot 2] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -55.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.050076] [gNB 1][rsc 0][Rx 0][sfn 1014][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -91.1 dBm
+
+[2023-09-28 15:38:43.050566] [gNB 2][rsc 0][Rx 0][sfn 1014][slot 4] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.051087] [gNB 3][rsc 0][Rx 0][sfn 1014][slot 5] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp -77.1 dBm
+
+[2023-09-28 15:38:43.056459] [gNB 0][rsc 0][Rx 0][sfn 1015][slot 2] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -53.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.056977] [gNB 1][rsc 0][Rx 0][sfn 1015][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -82.5 dBm
+
+[2023-09-28 15:38:43.057462] [gNB 2][rsc 0][Rx 0][sfn 1015][slot 4] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -55.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.057969] [gNB 3][rsc 0][Rx 0][sfn 1015][slot 5] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -55.1 dBm, SNR +4.0 dB, rsrp -77.3 dBm
+
+[2023-09-28 15:38:43.063474] [gNB 0][rsc 0][Rx 0][sfn 1016][slot 2] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -55.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.063969] [gNB 1][rsc 0][Rx 0][sfn 1016][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -83.5 dBm
+
+[2023-09-28 15:38:43.064451] [gNB 2][rsc 0][Rx 0][sfn 1016][slot 4] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.065062] [gNB 3][rsc 0][Rx 0][sfn 1016][slot 5] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -53.8 dBm, SNR +4.0 dB, rsrp -77.9 dBm
+
+[2023-09-28 15:38:43.070325] [gNB 0][rsc 0][Rx 0][sfn 1017][slot 2] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -53.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.070884] [gNB 1][rsc 0][Rx 0][sfn 1017][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -85.1 dBm
+
+[2023-09-28 15:38:43.071369] [gNB 2][rsc 0][Rx 0][sfn 1017][slot 4] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -55.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.071866] [gNB 3][rsc 0][Rx 0][sfn 1017][slot 5] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -55.8 dBm, SNR +4.0 dB, rsrp -77.0 dBm
+
+[2023-09-28 15:38:43.077265] [gNB 0][rsc 0][Rx 0][sfn 1018][slot 2] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.077758] [gNB 1][rsc 0][Rx 0][sfn 1018][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298743.2 dB, rsrp -83.2 dBm
+
+[2023-09-28 15:38:43.078243] [gNB 2][rsc 0][Rx 0][sfn 1018][slot 4] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.078745] [gNB 3][rsc 0][Rx 0][sfn 1018][slot 5] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.5 dBm, SNR +4.0 dB, rsrp -77.5 dBm
+
+[2023-09-28 15:38:43.084011] [gNB 0][rsc 0][Rx 0][sfn 1019][slot 2] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -53.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.084504] [gNB 1][rsc 0][Rx 0][sfn 1019][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -98.0 dBm
+
+[2023-09-28 15:38:43.084988] [gNB 2][rsc 0][Rx 0][sfn 1019][slot 4] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.5 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.085578] [gNB 3][rsc 0][Rx 0][sfn 1019][slot 5] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -55.4 dBm, SNR +4.0 dB, rsrp -77.5 dBm
+
+[2023-09-28 15:38:43.090901] [gNB 0][rsc 0][Rx 0][sfn 1020][slot 2] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.091389] [gNB 1][rsc 0][Rx 0][sfn 1020][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298742.8 dB, rsrp -83.0 dBm
+
+[2023-09-28 15:38:43.091876] [gNB 2][rsc 0][Rx 0][sfn 1020][slot 4] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.5 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.092427] [gNB 3][rsc 0][Rx 0][sfn 1020][slot 5] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -54.2 dBm, SNR +4.0 dB, rsrp -76.6 dBm
+
+[2023-09-28 15:38:43.097745] [gNB 0][rsc 0][Rx 0][sfn 1021][slot 2] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.5 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.098234] [gNB 1][rsc 0][Rx 0][sfn 1021][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -85.0 dBm
+
+[2023-09-28 15:38:43.098723] [gNB 2][rsc 0][Rx 0][sfn 1021][slot 4] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.6 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.099228] [gNB 3][rsc 0][Rx 0][sfn 1021][slot 5] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.9 dBm, SNR +4.0 dB, rsrp -76.9 dBm
+
+[2023-09-28 15:38:43.104666] [gNB 0][rsc 0][Rx 0][sfn 1022][slot 2] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -54.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.105210] [gNB 1][rsc 0][Rx 0][sfn 1022][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -91.6 dBm
+
+[2023-09-28 15:38:43.105698] [gNB 2][rsc 0][Rx 0][sfn 1022][slot 4] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.106194] [gNB 3][rsc 0][Rx 0][sfn 1022][slot 5] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.5 dBm, SNR +4.0 dB, rsrp -77.1 dBm
+
+[2023-09-28 15:38:43.111465] [gNB 0][rsc 0][Rx 0][sfn 1023][slot 2] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -53.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.111966] [gNB 1][rsc 0][Rx 0][sfn 1023][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -86.3 dBm
+
+[2023-09-28 15:38:43.112451] [gNB 2][rsc 0][Rx 0][sfn 1023][slot 4] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -52.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.112952] [gNB 3][rsc 0][Rx 0][sfn 1023][slot 5] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -54.5 dBm, SNR +4.0 dB, rsrp -76.8 dBm
+
+[2023-09-28 15:38:43.118343] [gNB 0][rsc 0][Rx 0][sfn 0][slot 2] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -54.4 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.118821] [gNB 1][rsc 0][Rx 0][sfn 0][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -84.9 dBm
+
+[2023-09-28 15:38:43.119298] [gNB 2][rsc 0][Rx 0][sfn 0][slot 4] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -54.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.119783] [gNB 3][rsc 0][Rx 0][sfn 0][slot 5] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.5 dBm, SNR +4.0 dB, rsrp -76.3 dBm
+
+[2023-09-28 15:38:43.124977] [gNB 0][rsc 0][Rx 0][sfn 1][slot 2] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -53.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.125448] [gNB 1][rsc 0][Rx 0][sfn 1][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -90.9 dBm
+
+[2023-09-28 15:38:43.125919] [gNB 2][rsc 0][Rx 0][sfn 1][slot 4] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -55.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.126515] [gNB 3][rsc 0][Rx 0][sfn 1][slot 5] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.0 dBm, SNR +4.0 dB, rsrp -77.9 dBm
+
+[2023-09-28 15:38:43.131785] [gNB 0][rsc 0][Rx 0][sfn 2][slot 2] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -53.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.132263] [gNB 1][rsc 0][Rx 0][sfn 2][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -83.7 dBm
+
+[2023-09-28 15:38:43.132741] [gNB 2][rsc 0][Rx 0][sfn 2][slot 4] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -55.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.133239] [gNB 3][rsc 0][Rx 0][sfn 2][slot 5] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp -77.4 dBm
+
+[2023-09-28 15:38:43.138431] [gNB 0][rsc 0][Rx 0][sfn 3][slot 2] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.138910] [gNB 1][rsc 0][Rx 0][sfn 3][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -87.4 dBm
+
+[2023-09-28 15:38:43.139377] [gNB 2][rsc 0][Rx 0][sfn 3][slot 4] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -52.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.139857] [gNB 3][rsc 0][Rx 0][sfn 3][slot 5] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -55.4 dBm, SNR +4.0 dB, rsrp -76.7 dBm
+
+[2023-09-28 15:38:43.145078] [gNB 0][rsc 0][Rx 0][sfn 4][slot 2] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -53.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.145556] [gNB 1][rsc 0][Rx 0][sfn 4][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -82.3 dBm
+
+[2023-09-28 15:38:43.146035] [gNB 2][rsc 0][Rx 0][sfn 4][slot 4] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -54.5 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.146526] [gNB 3][rsc 0][Rx 0][sfn 4][slot 5] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.2 dBm, SNR +4.0 dB, rsrp -76.8 dBm
+
+[2023-09-28 15:38:43.151764] [gNB 0][rsc 0][Rx 0][sfn 5][slot 2] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -52.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.152240] [gNB 1][rsc 0][Rx 0][sfn 5][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -82.9 dBm
+
+[2023-09-28 15:38:43.152715] [gNB 2][rsc 0][Rx 0][sfn 5][slot 4] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -54.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.153198] [gNB 3][rsc 0][Rx 0][sfn 5][slot 5] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -53.9 dBm, SNR +4.0 dB, rsrp -77.4 dBm
+
+[2023-09-28 15:38:43.158496] [gNB 0][rsc 0][Rx 0][sfn 6][slot 2] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -53.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.158974] [gNB 1][rsc 0][Rx 0][sfn 6][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -97.0 dBm
+
+[2023-09-28 15:38:43.159441] [gNB 2][rsc 0][Rx 0][sfn 6][slot 4] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -57.6 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.159955] [gNB 3][rsc 0][Rx 0][sfn 6][slot 5] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -52.9 dBm, SNR +4.0 dB, rsrp -77.8 dBm
+
+[2023-09-28 15:38:43.165109] [gNB 0][rsc 0][Rx 0][sfn 7][slot 2] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -55.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.165586] [gNB 1][rsc 0][Rx 0][sfn 7][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -83.2 dBm
+
+[2023-09-28 15:38:43.166060] [gNB 2][rsc 0][Rx 0][sfn 7][slot 4] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -54.6 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.166560] [gNB 3][rsc 0][Rx 0][sfn 7][slot 5] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -55.8 dBm, SNR +4.0 dB, rsrp -77.3 dBm
+
+[2023-09-28 15:38:43.171898] [gNB 0][rsc 0][Rx 0][sfn 8][slot 2] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -54.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.172376] [gNB 1][rsc 0][Rx 0][sfn 8][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -83.4 dBm
+
+[2023-09-28 15:38:43.172853] [gNB 2][rsc 0][Rx 0][sfn 8][slot 4] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -54.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.173345] [gNB 3][rsc 0][Rx 0][sfn 8][slot 5] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.6 dBm, SNR +4.0 dB, rsrp -77.6 dBm
+
+[2023-09-28 15:38:43.178592] [gNB 0][rsc 0][Rx 0][sfn 9][slot 2] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -52.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.179063] [gNB 1][rsc 0][Rx 0][sfn 9][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298741.0 dB, rsrp -87.0 dBm
+
+[2023-09-28 15:38:43.179539] [gNB 2][rsc 0][Rx 0][sfn 9][slot 4] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -53.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.180133] [gNB 3][rsc 0][Rx 0][sfn 9][slot 5] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.6 dBm, SNR +4.0 dB, rsrp -76.9 dBm
+
+[2023-09-28 15:38:43.185385] [gNB 0][rsc 0][Rx 0][sfn 10][slot 2] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.5 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.185926] [gNB 1][rsc 0][Rx 0][sfn 10][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -91.2 dBm
+
+[2023-09-28 15:38:43.186413] [gNB 2][rsc 0][Rx 0][sfn 10][slot 4] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.4 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.186984] [gNB 3][rsc 0][Rx 0][sfn 10][slot 5] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -53.6 dBm, SNR +4.0 dB, rsrp -78.0 dBm
+
+[2023-09-28 15:38:43.192265] [gNB 0][rsc 0][Rx 0][sfn 11][slot 2] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -55.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.192784] [gNB 1][rsc 0][Rx 0][sfn 11][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298742.8 dB, rsrp -82.1 dBm
+
+[2023-09-28 15:38:43.193272] [gNB 2][rsc 0][Rx 0][sfn 11][slot 4] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -54.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.193874] [gNB 3][rsc 0][Rx 0][sfn 11][slot 5] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -53.0 dBm, SNR +4.0 dB, rsrp -77.6 dBm
+
+[2023-09-28 15:38:43.199247] [gNB 0][rsc 0][Rx 0][sfn 12][slot 2] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.199773] [gNB 1][rsc 0][Rx 0][sfn 12][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -86.3 dBm
+
+[2023-09-28 15:38:43.200321] [gNB 2][rsc 0][Rx 0][sfn 12][slot 4] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -55.4 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.200841] [gNB 3][rsc 0][Rx 0][sfn 12][slot 5] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -53.6 dBm, SNR +4.0 dB, rsrp -77.3 dBm
+
+[2023-09-28 15:38:43.206117] [gNB 0][rsc 0][Rx 0][sfn 13][slot 2] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.206606] [gNB 1][rsc 0][Rx 0][sfn 13][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -83.4 dBm
+
+[2023-09-28 15:38:43.207089] [gNB 2][rsc 0][Rx 0][sfn 13][slot 4] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.207686] [gNB 3][rsc 0][Rx 0][sfn 13][slot 5] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -54.4 dBm, SNR +4.0 dB, rsrp -77.3 dBm
+
+[2023-09-28 15:38:43.213080] [gNB 0][rsc 0][Rx 0][sfn 14][slot 2] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.213570] [gNB 1][rsc 0][Rx 0][sfn 14][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298745.2 dB, rsrp -94.0 dBm
+
+[2023-09-28 15:38:43.214056] [gNB 2][rsc 0][Rx 0][sfn 14][slot 4] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -53.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.214567] [gNB 3][rsc 0][Rx 0][sfn 14][slot 5] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -55.1 dBm, SNR +4.0 dB, rsrp -77.4 dBm
+
+[2023-09-28 15:38:43.219874] [gNB 0][rsc 0][Rx 0][sfn 15][slot 2] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.220363] [gNB 1][rsc 0][Rx 0][sfn 15][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -86.5 dBm
+
+[2023-09-28 15:38:43.220861] [gNB 2][rsc 0][Rx 0][sfn 15][slot 4] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -53.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.221409] [gNB 3][rsc 0][Rx 0][sfn 15][slot 5] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -55.6 dBm, SNR +4.0 dB, rsrp -76.5 dBm
+
+[2023-09-28 15:38:43.226775] [gNB 0][rsc 0][Rx 0][sfn 16][slot 2] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.5 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.227263] [gNB 1][rsc 0][Rx 0][sfn 16][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -82.7 dBm
+
+[2023-09-28 15:38:43.227748] [gNB 2][rsc 0][Rx 0][sfn 16][slot 4] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.5 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.228337] [gNB 3][rsc 0][Rx 0][sfn 16][slot 5] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -55.2 dBm, SNR +4.0 dB, rsrp -77.4 dBm
+
+[2023-09-28 15:38:43.233691] [gNB 0][rsc 0][Rx 0][sfn 17][slot 2] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -54.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.234182] [gNB 1][rsc 0][Rx 0][sfn 17][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -85.9 dBm
+
+[2023-09-28 15:38:43.234673] [gNB 2][rsc 0][Rx 0][sfn 17][slot 4] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.235175] [gNB 3][rsc 0][Rx 0][sfn 17][slot 5] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.7 dBm, SNR +4.0 dB, rsrp -76.9 dBm
+
+[2023-09-28 15:38:43.240599] [gNB 0][rsc 0][Rx 0][sfn 18][slot 2] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -54.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.241094] [gNB 1][rsc 0][Rx 0][sfn 18][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -90.9 dBm
+
+[2023-09-28 15:38:43.241598] [gNB 2][rsc 0][Rx 0][sfn 18][slot 4] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -55.5 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.242108] [gNB 3][rsc 0][Rx 0][sfn 18][slot 5] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.5 dBm, SNR +4.0 dB, rsrp -77.9 dBm
+
+[2023-09-28 15:38:43.247458] [gNB 0][rsc 0][Rx 0][sfn 19][slot 2] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.5 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.247947] [gNB 1][rsc 0][Rx 0][sfn 19][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -86.0 dBm
+
+[2023-09-28 15:38:43.248434] [gNB 2][rsc 0][Rx 0][sfn 19][slot 4] DL PRS ToA ==> -2.0 / 4096 samples, peak channel power -55.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.248947] [gNB 3][rsc 0][Rx 0][sfn 19][slot 5] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.3 dBm, SNR +4.0 dB, rsrp -76.5 dBm
+
+[2023-09-28 15:38:43.254212] [gNB 0][rsc 0][Rx 0][sfn 20][slot 2] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.254683] [gNB 1][rsc 0][Rx 0][sfn 20][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -84.1 dBm
+
+[2023-09-28 15:38:43.255156] [gNB 2][rsc 0][Rx 0][sfn 20][slot 4] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.255719] [gNB 3][rsc 0][Rx 0][sfn 20][slot 5] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp -77.3 dBm
+
+[2023-09-28 15:38:43.260944] [gNB 0][rsc 0][Rx 0][sfn 21][slot 2] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.261420] [gNB 1][rsc 0][Rx 0][sfn 21][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -81.7 dBm
+
+[2023-09-28 15:38:43.261897] [gNB 2][rsc 0][Rx 0][sfn 21][slot 4] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -54.6 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.262435] [gNB 3][rsc 0][Rx 0][sfn 21][slot 5] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp -77.7 dBm
+
+[2023-09-28 15:38:43.267696] [gNB 0][rsc 0][Rx 0][sfn 22][slot 2] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.268169] [gNB 1][rsc 0][Rx 0][sfn 22][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298742.8 dB, rsrp -81.7 dBm
+
+[2023-09-28 15:38:43.268642] [gNB 2][rsc 0][Rx 0][sfn 22][slot 4] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -54.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.269138] [gNB 3][rsc 0][Rx 0][sfn 22][slot 5] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.2 dBm, SNR +4.0 dB, rsrp -77.0 dBm
+
+[2023-09-28 15:38:43.274307] [gNB 0][rsc 0][Rx 0][sfn 23][slot 2] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -53.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.274781] [gNB 1][rsc 0][Rx 0][sfn 23][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -83.9 dBm
+
+[2023-09-28 15:38:43.275257] [gNB 2][rsc 0][Rx 0][sfn 23][slot 4] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -54.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.275739] [gNB 3][rsc 0][Rx 0][sfn 23][slot 5] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.3 dBm, SNR +4.0 dB, rsrp -76.3 dBm
+
+[2023-09-28 15:38:43.280957] [gNB 0][rsc 0][Rx 0][sfn 24][slot 2] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -53.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.281437] [gNB 1][rsc 0][Rx 0][sfn 24][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -84.2 dBm
+
+[2023-09-28 15:38:43.281917] [gNB 2][rsc 0][Rx 0][sfn 24][slot 4] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -55.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.282630] [gNB 3][rsc 0][Rx 0][sfn 24][slot 5] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.8 dBm, SNR +4.0 dB, rsrp -76.9 dBm
+
+[2023-09-28 15:38:43.287880] [gNB 0][rsc 0][Rx 0][sfn 25][slot 2] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -53.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.288358] [gNB 1][rsc 0][Rx 0][sfn 25][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -83.5 dBm
+
+[2023-09-28 15:38:43.288835] [gNB 2][rsc 0][Rx 0][sfn 25][slot 4] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -55.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.289330] [gNB 3][rsc 0][Rx 0][sfn 25][slot 5] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.9 dBm, SNR +4.0 dB, rsrp -77.4 dBm
+
+[2023-09-28 15:38:43.294600] [gNB 0][rsc 0][Rx 0][sfn 26][slot 2] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.295078] [gNB 1][rsc 0][Rx 0][sfn 26][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -84.1 dBm
+
+[2023-09-28 15:38:43.295555] [gNB 2][rsc 0][Rx 0][sfn 26][slot 4] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -54.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.296048] [gNB 3][rsc 0][Rx 0][sfn 26][slot 5] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -55.0 dBm, SNR +4.0 dB, rsrp -77.8 dBm
+
+[2023-09-28 15:38:43.301263] [gNB 0][rsc 0][Rx 0][sfn 27][slot 2] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.301739] [gNB 1][rsc 0][Rx 0][sfn 27][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298741.2 dB, rsrp -85.6 dBm
+
+[2023-09-28 15:38:43.302212] [gNB 2][rsc 0][Rx 0][sfn 27][slot 4] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -54.4 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.302885] [gNB 3][rsc 0][Rx 0][sfn 27][slot 5] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.9 dBm, SNR +4.0 dB, rsrp -78.0 dBm
+
+[2023-09-28 15:38:43.308221] [gNB 0][rsc 0][Rx 0][sfn 28][slot 2] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.308697] [gNB 1][rsc 0][Rx 0][sfn 28][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -86.9 dBm
+
+[2023-09-28 15:38:43.309173] [gNB 2][rsc 0][Rx 0][sfn 28][slot 4] DL PRS ToA ==> -2.0 / 4096 samples, peak channel power -55.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.309673] [gNB 3][rsc 0][Rx 0][sfn 28][slot 5] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.6 dBm, SNR +4.0 dB, rsrp -78.0 dBm
+
+[2023-09-28 15:38:43.314893] [gNB 0][rsc 0][Rx 0][sfn 29][slot 2] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.315421] [gNB 1][rsc 0][Rx 0][sfn 29][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -87.5 dBm
+
+[2023-09-28 15:38:43.315897] [gNB 2][rsc 0][Rx 0][sfn 29][slot 4] DL PRS ToA ==> -2.0 / 4096 samples, peak channel power -55.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.316397] [gNB 3][rsc 0][Rx 0][sfn 29][slot 5] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.5 dBm, SNR +4.0 dB, rsrp -78.0 dBm
+
+[2023-09-28 15:38:43.321635] [gNB 0][rsc 0][Rx 0][sfn 30][slot 2] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -54.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.322113] [gNB 1][rsc 0][Rx 0][sfn 30][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -86.8 dBm
+
+[2023-09-28 15:38:43.322587] [gNB 2][rsc 0][Rx 0][sfn 30][slot 4] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -55.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.323070] [gNB 3][rsc 0][Rx 0][sfn 30][slot 5] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.7 dBm, SNR +4.0 dB, rsrp -78.0 dBm
+
+[2023-09-28 15:38:43.328286] [gNB 0][rsc 0][Rx 0][sfn 31][slot 2] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.328777] [gNB 1][rsc 0][Rx 0][sfn 31][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -85.6 dBm
+
+[2023-09-28 15:38:43.329256] [gNB 2][rsc 0][Rx 0][sfn 31][slot 4] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -55.6 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.329780] [gNB 3][rsc 0][Rx 0][sfn 31][slot 5] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298745.5 dB, rsrp -95.6 dBm
+
+[2023-09-28 15:38:43.335325] [gNB 0][rsc 0][Rx 0][sfn 32][slot 2] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -53.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.335858] [gNB 1][rsc 0][Rx 0][sfn 32][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -83.9 dBm
+
+[2023-09-28 15:38:43.336345] [gNB 2][rsc 0][Rx 0][sfn 32][slot 4] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -54.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.336883] [gNB 3][rsc 0][Rx 0][sfn 32][slot 5] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -55.3 dBm, SNR +4.0 dB, rsrp -77.8 dBm
+
+[2023-09-28 15:38:43.342131] [gNB 0][rsc 0][Rx 0][sfn 33][slot 2] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -52.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.342622] [gNB 1][rsc 0][Rx 0][sfn 33][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298741.0 dB, rsrp -84.1 dBm
+
+[2023-09-28 15:38:43.343104] [gNB 2][rsc 0][Rx 0][sfn 33][slot 4] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -53.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.343747] [gNB 3][rsc 0][Rx 0][sfn 33][slot 5] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -55.7 dBm, SNR +4.0 dB, rsrp -77.4 dBm
+
+[2023-09-28 15:38:43.349084] [gNB 0][rsc 0][Rx 0][sfn 34][slot 2] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -53.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.349578] [gNB 1][rsc 0][Rx 0][sfn 34][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -86.1 dBm
+
+[2023-09-28 15:38:43.350067] [gNB 2][rsc 0][Rx 0][sfn 34][slot 4] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -55.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.350601] [gNB 3][rsc 0][Rx 0][sfn 34][slot 5] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -55.6 dBm, SNR +4.0 dB, rsrp -76.8 dBm
+
+[2023-09-28 15:38:43.355844] [gNB 0][rsc 0][Rx 0][sfn 35][slot 2] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -53.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.356391] [gNB 1][rsc 0][Rx 0][sfn 35][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -85.7 dBm
+
+[2023-09-28 15:38:43.356877] [gNB 2][rsc 0][Rx 0][sfn 35][slot 4] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -54.4 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.357491] [gNB 3][rsc 0][Rx 0][sfn 35][slot 5] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -55.2 dBm, SNR +4.0 dB, rsrp -76.2 dBm
+
+[2023-09-28 15:38:43.362794] [gNB 0][rsc 0][Rx 0][sfn 36][slot 2] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.5 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.363282] [gNB 1][rsc 0][Rx 0][sfn 36][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -85.4 dBm
+
+[2023-09-28 15:38:43.363770] [gNB 2][rsc 0][Rx 0][sfn 36][slot 4] DL PRS ToA ==> -2.0 / 4096 samples, peak channel power -54.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.364292] [gNB 3][rsc 0][Rx 0][sfn 36][slot 5] DL PRS ToA ==> -2.0 / 4096 samples, peak channel power -54.5 dBm, SNR +4.0 dB, rsrp -76.3 dBm
+
+[2023-09-28 15:38:43.369593] [gNB 0][rsc 0][Rx 0][sfn 37][slot 2] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -53.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.370087] [gNB 1][rsc 0][Rx 0][sfn 37][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -85.3 dBm
+
+[2023-09-28 15:38:43.370578] [gNB 2][rsc 0][Rx 0][sfn 37][slot 4] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -54.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.371202] [gNB 3][rsc 0][Rx 0][sfn 37][slot 5] DL PRS ToA ==> -2.0 / 4096 samples, peak channel power -54.6 dBm, SNR +4.0 dB, rsrp -76.5 dBm
+
+[2023-09-28 15:38:43.376499] [gNB 0][rsc 0][Rx 0][sfn 38][slot 2] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -53.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.376988] [gNB 1][rsc 0][Rx 0][sfn 38][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -85.0 dBm
+
+[2023-09-28 15:38:43.377479] [gNB 2][rsc 0][Rx 0][sfn 38][slot 4] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -54.5 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.378012] [gNB 3][rsc 0][Rx 0][sfn 38][slot 5] DL PRS ToA ==> -3.0 / 4096 samples, peak channel power -54.0 dBm, SNR +4.0 dB, rsrp -76.6 dBm
+
+[2023-09-28 15:38:43.383431] [gNB 0][rsc 0][Rx 0][sfn 39][slot 2] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -54.6 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.383917] [gNB 1][rsc 0][Rx 0][sfn 39][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -83.0 dBm
+
+[2023-09-28 15:38:43.384405] [gNB 2][rsc 0][Rx 0][sfn 39][slot 4] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -52.6 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.384990] [gNB 3][rsc 0][Rx 0][sfn 39][slot 5] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -55.6 dBm, SNR +4.0 dB, rsrp -76.6 dBm
+
+[2023-09-28 15:38:43.390297] [gNB 0][rsc 0][Rx 0][sfn 40][slot 2] DL PRS ToA ==> -2.0 / 4096 samples, peak channel power -54.6 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.390786] [gNB 1][rsc 0][Rx 0][sfn 40][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -85.3 dBm
+
+[2023-09-28 15:38:43.391273] [gNB 2][rsc 0][Rx 0][sfn 40][slot 4] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -53.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.391866] [gNB 3][rsc 0][Rx 0][sfn 40][slot 5] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -55.6 dBm, SNR +4.0 dB, rsrp -76.9 dBm
+
+[2023-09-28 15:38:43.397157] [gNB 0][rsc 0][Rx 0][sfn 41][slot 2] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -53.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.397646] [gNB 1][rsc 0][Rx 0][sfn 41][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -93.7 dBm
+
+[2023-09-28 15:38:43.398132] [gNB 2][rsc 0][Rx 0][sfn 41][slot 4] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.398654] [gNB 3][rsc 0][Rx 0][sfn 41][slot 5] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -55.4 dBm, SNR +4.0 dB, rsrp -77.5 dBm
+
+[2023-09-28 15:38:43.403924] [gNB 0][rsc 0][Rx 0][sfn 42][slot 2] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.404420] [gNB 1][rsc 0][Rx 0][sfn 42][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298745.5 dB, rsrp -89.8 dBm
+
+[2023-09-28 15:38:43.404912] [gNB 2][rsc 0][Rx 0][sfn 42][slot 4] DL PRS ToA ==> -3.0 / 4096 samples, peak channel power -54.5 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.405616] [gNB 3][rsc 0][Rx 0][sfn 42][slot 5] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -54.6 dBm, SNR +4.0 dB, rsrp -78.0 dBm
+
+[2023-09-28 15:38:43.410734] [gNB 0][rsc 0][Rx 0][sfn 43][slot 2] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -53.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.411223] [gNB 1][rsc 0][Rx 0][sfn 43][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -83.0 dBm
+
+[2023-09-28 15:38:43.411712] [gNB 2][rsc 0][Rx 0][sfn 43][slot 4] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -54.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.412224] [gNB 3][rsc 0][Rx 0][sfn 43][slot 5] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -54.0 dBm, SNR +4.0 dB, rsrp -77.6 dBm
+
+[2023-09-28 15:38:43.417737] [gNB 0][rsc 0][Rx 0][sfn 44][slot 2] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -53.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.418229] [gNB 1][rsc 0][Rx 0][sfn 44][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -86.5 dBm
+
+[2023-09-28 15:38:43.418697] [gNB 2][rsc 0][Rx 0][sfn 44][slot 4] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -55.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.419263] [gNB 3][rsc 0][Rx 0][sfn 44][slot 5] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -53.8 dBm, SNR +4.0 dB, rsrp -76.7 dBm
+
+[2023-09-28 15:38:43.424515] [gNB 0][rsc 0][Rx 0][sfn 45][slot 2] DL PRS ToA ==> -3.0 / 4096 samples, peak channel power -53.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.424994] [gNB 1][rsc 0][Rx 0][sfn 45][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -87.0 dBm
+
+[2023-09-28 15:38:43.425469] [gNB 2][rsc 0][Rx 0][sfn 45][slot 4] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -57.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.425974] [gNB 3][rsc 0][Rx 0][sfn 45][slot 5] DL PRS ToA ==> -3.0 / 4096 samples, peak channel power -53.6 dBm, SNR +4.0 dB, rsrp -76.6 dBm
+
+[2023-09-28 15:38:43.431125] [gNB 0][rsc 0][Rx 0][sfn 46][slot 2] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -53.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.431634] [gNB 1][rsc 0][Rx 0][sfn 46][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298742.8 dB, rsrp -86.4 dBm
+
+[2023-09-28 15:38:43.432111] [gNB 2][rsc 0][Rx 0][sfn 46][slot 4] DL PRS ToA ==> -3.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.432703] [gNB 3][rsc 0][Rx 0][sfn 46][slot 5] DL PRS ToA ==> -2.0 / 4096 samples, peak channel power -53.8 dBm, SNR +4.0 dB, rsrp -76.6 dBm
+
+[2023-09-28 15:38:43.437840] [gNB 0][rsc 0][Rx 0][sfn 47][slot 2] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -55.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.438311] [gNB 1][rsc 0][Rx 0][sfn 47][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -83.7 dBm
+
+[2023-09-28 15:38:43.438785] [gNB 2][rsc 0][Rx 0][sfn 47][slot 4] DL PRS ToA ==> -3.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.439354] [gNB 3][rsc 0][Rx 0][sfn 47][slot 5] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -55.9 dBm, SNR +4.0 dB, rsrp -76.3 dBm
+
+[2023-09-28 15:38:43.444596] [gNB 0][rsc 0][Rx 0][sfn 48][slot 2] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.445133] [gNB 1][rsc 0][Rx 0][sfn 48][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -88.0 dBm
+
+[2023-09-28 15:38:43.445606] [gNB 2][rsc 0][Rx 0][sfn 48][slot 4] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -56.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.446123] [gNB 3][rsc 0][Rx 0][sfn 48][slot 5] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -54.4 dBm, SNR +4.0 dB, rsrp -77.0 dBm
+
+[2023-09-28 15:38:43.451274] [gNB 0][rsc 0][Rx 0][sfn 49][slot 2] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -52.4 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.451751] [gNB 1][rsc 0][Rx 0][sfn 49][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -91.3 dBm
+
+[2023-09-28 15:38:43.452221] [gNB 2][rsc 0][Rx 0][sfn 49][slot 4] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -54.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.452802] [gNB 3][rsc 0][Rx 0][sfn 49][slot 5] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -54.4 dBm, SNR +4.0 dB, rsrp -78.0 dBm
+
+[2023-09-28 15:38:43.457958] [gNB 0][rsc 0][Rx 0][sfn 50][slot 2] DL PRS ToA ==> -3.0 / 4096 samples, peak channel power -53.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.458429] [gNB 1][rsc 0][Rx 0][sfn 50][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -82.4 dBm
+
+[2023-09-28 15:38:43.458917] [gNB 2][rsc 0][Rx 0][sfn 50][slot 4] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -54.5 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.459484] [gNB 3][rsc 0][Rx 0][sfn 50][slot 5] DL PRS ToA ==> -3.0 / 4096 samples, peak channel power -54.0 dBm, SNR +4.0 dB, rsrp -77.6 dBm
+
+[2023-09-28 15:38:43.464911] [gNB 0][rsc 0][Rx 0][sfn 51][slot 2] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -55.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.465393] [gNB 1][rsc 0][Rx 0][sfn 51][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -84.6 dBm
+
+[2023-09-28 15:38:43.465868] [gNB 2][rsc 0][Rx 0][sfn 51][slot 4] DL PRS ToA ==> -2.0 / 4096 samples, peak channel power -55.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.466386] [gNB 3][rsc 0][Rx 0][sfn 51][slot 5] DL PRS ToA ==> -2.0 / 4096 samples, peak channel power -52.5 dBm, SNR +4.0 dB, rsrp -77.4 dBm
+
+[2023-09-28 15:38:43.471663] [gNB 0][rsc 0][Rx 0][sfn 52][slot 2] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -54.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.472142] [gNB 1][rsc 0][Rx 0][sfn 52][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -87.1 dBm
+
+[2023-09-28 15:38:43.472618] [gNB 2][rsc 0][Rx 0][sfn 52][slot 4] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -54.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.473152] [gNB 3][rsc 0][Rx 0][sfn 52][slot 5] DL PRS ToA ==> -2.0 / 4096 samples, peak channel power -53.6 dBm, SNR +4.0 dB, rsrp -76.8 dBm
+
+[2023-09-28 15:38:43.478238] [gNB 0][rsc 0][Rx 0][sfn 53][slot 2] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -54.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.478713] [gNB 1][rsc 0][Rx 0][sfn 53][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -84.3 dBm
+
+[2023-09-28 15:38:43.479187] [gNB 2][rsc 0][Rx 0][sfn 53][slot 4] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -54.4 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.479761] [gNB 3][rsc 0][Rx 0][sfn 53][slot 5] DL PRS ToA ==> -2.0 / 4096 samples, peak channel power -54.9 dBm, SNR +4.0 dB, rsrp -76.2 dBm
+
+[2023-09-28 15:38:43.485143] [gNB 0][rsc 0][Rx 0][sfn 54][slot 2] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -53.5 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.485636] [gNB 1][rsc 0][Rx 0][sfn 54][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298742.0 dB, rsrp -89.7 dBm
+
+[2023-09-28 15:38:43.486122] [gNB 2][rsc 0][Rx 0][sfn 54][slot 4] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -53.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.486646] [gNB 3][rsc 0][Rx 0][sfn 54][slot 5] DL PRS ToA ==> -3.0 / 4096 samples, peak channel power -55.4 dBm, SNR +4.0 dB, rsrp -77.2 dBm
+
+[2023-09-28 15:38:43.491936] [gNB 0][rsc 0][Rx 0][sfn 55][slot 2] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -53.6 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.492451] [gNB 1][rsc 0][Rx 0][sfn 55][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298743.2 dB, rsrp -87.9 dBm
+
+[2023-09-28 15:38:43.492944] [gNB 2][rsc 0][Rx 0][sfn 55][slot 4] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -55.6 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.493535] [gNB 3][rsc 0][Rx 0][sfn 55][slot 5] DL PRS ToA ==> -2.0 / 4096 samples, peak channel power -55.1 dBm, SNR +4.0 dB, rsrp -78.0 dBm
+
+[2023-09-28 15:38:43.498864] [gNB 0][rsc 0][Rx 0][sfn 56][slot 2] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.499355] [gNB 1][rsc 0][Rx 0][sfn 56][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -86.3 dBm
+
+[2023-09-28 15:38:43.499841] [gNB 2][rsc 0][Rx 0][sfn 56][slot 4] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -81.6 dBm
+
+[2023-09-28 15:38:43.500381] [gNB 3][rsc 0][Rx 0][sfn 56][slot 5] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -55.4 dBm, SNR +4.0 dB, rsrp -76.8 dBm
+
+[2023-09-28 15:38:43.505672] [gNB 0][rsc 0][Rx 0][sfn 57][slot 2] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -54.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.506160] [gNB 1][rsc 0][Rx 0][sfn 57][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -85.2 dBm
+
+[2023-09-28 15:38:43.506646] [gNB 2][rsc 0][Rx 0][sfn 57][slot 4] DL PRS ToA ==> -3.0 / 4096 samples, peak channel power -53.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.507212] [gNB 3][rsc 0][Rx 0][sfn 57][slot 5] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -55.1 dBm, SNR +4.0 dB, rsrp -76.5 dBm
+
+[2023-09-28 15:38:43.512511] [gNB 0][rsc 0][Rx 0][sfn 58][slot 2] DL PRS ToA ==> -3.0 / 4096 samples, peak channel power -54.4 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.513001] [gNB 1][rsc 0][Rx 0][sfn 58][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298743.8 dB, rsrp -80.6 dBm
+
+[2023-09-28 15:38:43.513492] [gNB 2][rsc 0][Rx 0][sfn 58][slot 4] DL PRS ToA ==> -2.0 / 4096 samples, peak channel power -55.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.514002] [gNB 3][rsc 0][Rx 0][sfn 58][slot 5] DL PRS ToA ==> -3.0 / 4096 samples, peak channel power -54.4 dBm, SNR +4.0 dB, rsrp -77.4 dBm
+
+[2023-09-28 15:38:43.519186] [gNB 0][rsc 0][Rx 0][sfn 59][slot 2] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -53.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.519674] [gNB 1][rsc 0][Rx 0][sfn 59][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -86.6 dBm
+
+[2023-09-28 15:38:43.520163] [gNB 2][rsc 0][Rx 0][sfn 59][slot 4] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -54.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.520786] [gNB 3][rsc 0][Rx 0][sfn 59][slot 5] DL PRS ToA ==> -3.0 / 4096 samples, peak channel power -53.9 dBm, SNR +4.0 dB, rsrp -76.8 dBm
+
+[2023-09-28 15:38:43.526122] [gNB 0][rsc 0][Rx 0][sfn 60][slot 2] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -52.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.526612] [gNB 1][rsc 0][Rx 0][sfn 60][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -90.5 dBm
+
+[2023-09-28 15:38:43.527094] [gNB 2][rsc 0][Rx 0][sfn 60][slot 4] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -55.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.527623] [gNB 3][rsc 0][Rx 0][sfn 60][slot 5] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -54.2 dBm, SNR +4.0 dB, rsrp -78.0 dBm
+
+[2023-09-28 15:38:43.532936] [gNB 0][rsc 0][Rx 0][sfn 61][slot 2] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -53.4 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.533423] [gNB 1][rsc 0][Rx 0][sfn 61][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -80.9 dBm
+
+[2023-09-28 15:38:43.533910] [gNB 2][rsc 0][Rx 0][sfn 61][slot 4] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -54.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.534442] [gNB 3][rsc 0][Rx 0][sfn 61][slot 5] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -54.6 dBm, SNR +4.0 dB, rsrp -77.0 dBm
+
+[2023-09-28 15:38:43.539702] [gNB 0][rsc 0][Rx 0][sfn 62][slot 2] DL PRS ToA ==> -2.0 / 4096 samples, peak channel power -53.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.540189] [gNB 1][rsc 0][Rx 0][sfn 62][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -86.2 dBm
+
+[2023-09-28 15:38:43.540683] [gNB 2][rsc 0][Rx 0][sfn 62][slot 4] DL PRS ToA ==> -4.0 / 4096 samples, peak channel power -54.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.541263] [gNB 3][rsc 0][Rx 0][sfn 62][slot 5] DL PRS ToA ==> -3.0 / 4096 samples, peak channel power -54.2 dBm, SNR +4.0 dB, rsrp -77.1 dBm
+
+[2023-09-28 15:38:43.546500] [gNB 0][rsc 0][Rx 0][sfn 63][slot 2] DL PRS ToA ==> -2.0 / 4096 samples, peak channel power -54.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.546994] [gNB 1][rsc 0][Rx 0][sfn 63][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -84.5 dBm
+
+[2023-09-28 15:38:43.547485] [gNB 2][rsc 0][Rx 0][sfn 63][slot 4] DL PRS ToA ==> -4.0 / 4096 samples, peak channel power -54.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.548076] [gNB 3][rsc 0][Rx 0][sfn 63][slot 5] DL PRS ToA ==> -3.0 / 4096 samples, peak channel power -53.6 dBm, SNR +4.0 dB, rsrp -76.6 dBm
+
+[2023-09-28 15:38:43.553370] [gNB 0][rsc 0][Rx 0][sfn 64][slot 2] DL PRS ToA ==> -2.0 / 4096 samples, peak channel power -53.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.553861] [gNB 1][rsc 0][Rx 0][sfn 64][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -87.7 dBm
+
+[2023-09-28 15:38:43.554351] [gNB 2][rsc 0][Rx 0][sfn 64][slot 4] DL PRS ToA ==> -4.0 / 4096 samples, peak channel power -53.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.554921] [gNB 3][rsc 0][Rx 0][sfn 64][slot 5] DL PRS ToA ==> -4.0 / 4096 samples, peak channel power -54.2 dBm, SNR +4.0 dB, rsrp -77.1 dBm
+
+[2023-09-28 15:38:43.560205] [gNB 0][rsc 0][Rx 0][sfn 65][slot 2] DL PRS ToA ==> -2.0 / 4096 samples, peak channel power -54.6 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.560697] [gNB 1][rsc 0][Rx 0][sfn 65][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298741.8 dB, rsrp -86.7 dBm
+
+[2023-09-28 15:38:43.561185] [gNB 2][rsc 0][Rx 0][sfn 65][slot 4] DL PRS ToA ==> -3.0 / 4096 samples, peak channel power -52.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.561819] [gNB 3][rsc 0][Rx 0][sfn 65][slot 5] DL PRS ToA ==> -3.0 / 4096 samples, peak channel power -55.2 dBm, SNR +4.0 dB, rsrp -78.0 dBm
+
+[2023-09-28 15:38:43.567036] [gNB 0][rsc 0][Rx 0][sfn 66][slot 2] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -55.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.567512] [gNB 1][rsc 0][Rx 0][sfn 66][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -81.6 dBm
+
+[2023-09-28 15:38:43.567987] [gNB 2][rsc 0][Rx 0][sfn 66][slot 4] DL PRS ToA ==> -3.0 / 4096 samples, peak channel power -53.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.568512] [gNB 3][rsc 0][Rx 0][sfn 66][slot 5] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -56.3 dBm, SNR +4.0 dB, rsrp -76.9 dBm
+
+[2023-09-28 15:38:43.573636] [gNB 0][rsc 0][Rx 0][sfn 67][slot 2] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.5 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.574109] [gNB 1][rsc 0][Rx 0][sfn 67][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298741.5 dB, rsrp -84.2 dBm
+
+[2023-09-28 15:38:43.574584] [gNB 2][rsc 0][Rx 0][sfn 67][slot 4] DL PRS ToA ==> -2.0 / 4096 samples, peak channel power -54.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.575118] [gNB 3][rsc 0][Rx 0][sfn 67][slot 5] DL PRS ToA ==> 1.0 / 4096 samples, peak channel power -55.8 dBm, SNR +4.0 dB, rsrp -77.5 dBm
+
+[2023-09-28 15:38:43.580309] [gNB 0][rsc 0][Rx 0][sfn 68][slot 2] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -53.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.580797] [gNB 1][rsc 0][Rx 0][sfn 68][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -83.8 dBm
+
+[2023-09-28 15:38:43.581332] [gNB 2][rsc 0][Rx 0][sfn 68][slot 4] DL PRS ToA ==> -3.0 / 4096 samples, peak channel power -54.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.581849] [gNB 3][rsc 0][Rx 0][sfn 68][slot 5] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -55.2 dBm, SNR +4.0 dB, rsrp -76.0 dBm
+
+[2023-09-28 15:38:43.587012] [gNB 0][rsc 0][Rx 0][sfn 69][slot 2] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.587518] [gNB 1][rsc 0][Rx 0][sfn 69][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298742.5 dB, rsrp -96.4 dBm
+
+[2023-09-28 15:38:43.587991] [gNB 2][rsc 0][Rx 0][sfn 69][slot 4] DL PRS ToA ==> -1.0 / 4096 samples, peak channel power -54.4 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.588512] [gNB 3][rsc 0][Rx 0][sfn 69][slot 5] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.4 dBm, SNR +4.0 dB, rsrp -77.7 dBm
+
+[2023-09-28 15:38:43.593696] [gNB 0][rsc 0][Rx 0][sfn 70][slot 2] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -53.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.594172] [gNB 1][rsc 0][Rx 0][sfn 70][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -83.6 dBm
+
+[2023-09-28 15:38:43.594644] [gNB 2][rsc 0][Rx 0][sfn 70][slot 4] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -55.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.595246] [gNB 3][rsc 0][Rx 0][sfn 70][slot 5] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.5 dBm, SNR +4.0 dB, rsrp -77.6 dBm
+
+[2023-09-28 15:38:43.600407] [gNB 0][rsc 0][Rx 0][sfn 71][slot 2] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -52.5 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.600886] [gNB 1][rsc 0][Rx 0][sfn 71][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -84.6 dBm
+
+[2023-09-28 15:38:43.601355] [gNB 2][rsc 0][Rx 0][sfn 71][slot 4] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.601882] [gNB 3][rsc 0][Rx 0][sfn 71][slot 5] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -55.0 dBm, SNR +4.0 dB, rsrp -76.3 dBm
+
+[2023-09-28 15:38:43.607066] [gNB 0][rsc 0][Rx 0][sfn 72][slot 2] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.607607] [gNB 1][rsc 0][Rx 0][sfn 72][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298743.0 dB, rsrp -81.0 dBm
+
+[2023-09-28 15:38:43.608086] [gNB 2][rsc 0][Rx 0][sfn 72][slot 4] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.5 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.608684] [gNB 3][rsc 0][Rx 0][sfn 72][slot 5] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -53.9 dBm, SNR +4.0 dB, rsrp -77.2 dBm
+
+[2023-09-28 15:38:43.613917] [gNB 0][rsc 0][Rx 0][sfn 73][slot 2] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -55.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.614394] [gNB 1][rsc 0][Rx 0][sfn 73][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -84.0 dBm
+
+[2023-09-28 15:38:43.614937] [gNB 2][rsc 0][Rx 0][sfn 73][slot 4] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -55.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.615409] [gNB 3][rsc 0][Rx 0][sfn 73][slot 5] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -53.4 dBm, SNR +4.0 dB, rsrp -77.3 dBm
+
+[2023-09-28 15:38:43.620892] [gNB 0][rsc 0][Rx 0][sfn 74][slot 2] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.621369] [gNB 1][rsc 0][Rx 0][sfn 74][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -95.9 dBm
+
+[2023-09-28 15:38:43.621842] [gNB 2][rsc 0][Rx 0][sfn 74][slot 4] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -53.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.622349] [gNB 3][rsc 0][Rx 0][sfn 74][slot 5] DL PRS ToA ==> 2.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp -77.8 dBm
+
+[2023-09-28 15:38:43.627655] [gNB 0][rsc 0][Rx 0][sfn 75][slot 2] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -54.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.628173] [gNB 1][rsc 0][Rx 0][sfn 75][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -83.3 dBm
+
+[2023-09-28 15:38:43.628654] [gNB 2][rsc 0][Rx 0][sfn 75][slot 4] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -53.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.629185] [gNB 3][rsc 0][Rx 0][sfn 75][slot 5] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.8 dBm, SNR +4.0 dB, rsrp -77.6 dBm
+
+[2023-09-28 15:38:43.634362] [gNB 0][rsc 0][Rx 0][sfn 76][slot 2] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -53.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.634846] [gNB 1][rsc 0][Rx 0][sfn 76][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -84.7 dBm
+
+[2023-09-28 15:38:43.635325] [gNB 2][rsc 0][Rx 0][sfn 76][slot 4] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -55.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.635925] [gNB 3][rsc 0][Rx 0][sfn 76][slot 5] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -55.6 dBm, SNR +4.0 dB, rsrp -76.2 dBm
+
+[2023-09-28 15:38:43.641202] [gNB 0][rsc 0][Rx 0][sfn 77][slot 2] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -54.4 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.641685] [gNB 1][rsc 0][Rx 0][sfn 77][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -82.1 dBm
+
+[2023-09-28 15:38:43.642174] [gNB 2][rsc 0][Rx 0][sfn 77][slot 4] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -55.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.642767] [gNB 3][rsc 0][Rx 0][sfn 77][slot 5] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -55.3 dBm, SNR +4.0 dB, rsrp -77.1 dBm
+
+[2023-09-28 15:38:43.648123] [gNB 0][rsc 0][Rx 0][sfn 78][slot 2] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -54.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.648613] [gNB 1][rsc 0][Rx 0][sfn 78][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -80.5 dBm
+
+[2023-09-28 15:38:43.649099] [gNB 2][rsc 0][Rx 0][sfn 78][slot 4] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.649610] [gNB 3][rsc 0][Rx 0][sfn 78][slot 5] DL PRS ToA ==> 3.0 / 4096 samples, peak channel power -54.3 dBm, SNR +4.0 dB, rsrp -77.6 dBm
+
+[2023-09-28 15:38:43.655003] [gNB 0][rsc 0][Rx 0][sfn 79][slot 2] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -53.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.655540] [gNB 1][rsc 0][Rx 0][sfn 79][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298741.0 dB, rsrp -84.6 dBm
+
+[2023-09-28 15:38:43.656021] [gNB 2][rsc 0][Rx 0][sfn 79][slot 4] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -55.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.656556] [gNB 3][rsc 0][Rx 0][sfn 79][slot 5] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -54.6 dBm, SNR +4.0 dB, rsrp -77.2 dBm
+
+[2023-09-28 15:38:43.661854] [gNB 0][rsc 0][Rx 0][sfn 80][slot 2] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -55.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.662344] [gNB 1][rsc 0][Rx 0][sfn 80][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -96.6 dBm
+
+[2023-09-28 15:38:43.662834] [gNB 2][rsc 0][Rx 0][sfn 80][slot 4] DL PRS ToA ==> 7.0 / 4096 samples, peak channel power -54.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.663438] [gNB 3][rsc 0][Rx 0][sfn 80][slot 5] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -55.3 dBm, SNR +4.0 dB, rsrp -77.7 dBm
+
+[2023-09-28 15:38:43.668786] [gNB 0][rsc 0][Rx 0][sfn 81][slot 2] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -54.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.669279] [gNB 1][rsc 0][Rx 0][sfn 81][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298744.0 dB, rsrp -86.2 dBm
+
+[2023-09-28 15:38:43.669769] [gNB 2][rsc 0][Rx 0][sfn 81][slot 4] DL PRS ToA ==> 8.0 / 4096 samples, peak channel power -53.6 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.670284] [gNB 3][rsc 0][Rx 0][sfn 81][slot 5] DL PRS ToA ==> 7.0 / 4096 samples, peak channel power -55.4 dBm, SNR +4.0 dB, rsrp -77.9 dBm
+
+[2023-09-28 15:38:43.675698] [gNB 0][rsc 0][Rx 0][sfn 82][slot 2] DL PRS ToA ==> 9.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.676189] [gNB 1][rsc 0][Rx 0][sfn 82][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -85.5 dBm
+
+[2023-09-28 15:38:43.676686] [gNB 2][rsc 0][Rx 0][sfn 82][slot 4] DL PRS ToA ==> 4.0 / 4096 samples, peak channel power -53.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.677207] [gNB 3][rsc 0][Rx 0][sfn 82][slot 5] DL PRS ToA ==> 7.0 / 4096 samples, peak channel power -53.9 dBm, SNR +4.0 dB, rsrp -76.8 dBm
+
+[2023-09-28 15:38:43.682576] [gNB 0][rsc 0][Rx 0][sfn 83][slot 2] DL PRS ToA ==> 8.0 / 4096 samples, peak channel power -52.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.683064] [gNB 1][rsc 0][Rx 0][sfn 83][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298741.2 dB, rsrp -83.9 dBm
+
+[2023-09-28 15:38:43.683549] [gNB 2][rsc 0][Rx 0][sfn 83][slot 4] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -55.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.684087] [gNB 3][rsc 0][Rx 0][sfn 83][slot 5] DL PRS ToA ==> 8.0 / 4096 samples, peak channel power -53.9 dBm, SNR +4.0 dB, rsrp -76.6 dBm
+
+[2023-09-28 15:38:43.689400] [gNB 0][rsc 0][Rx 0][sfn 84][slot 2] DL PRS ToA ==> 7.0 / 4096 samples, peak channel power -53.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.689892] [gNB 1][rsc 0][Rx 0][sfn 84][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -81.7 dBm
+
+[2023-09-28 15:38:43.690377] [gNB 2][rsc 0][Rx 0][sfn 84][slot 4] DL PRS ToA ==> 9.0 / 4096 samples, peak channel power -56.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.690906] [gNB 3][rsc 0][Rx 0][sfn 84][slot 5] DL PRS ToA ==> 5.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp -77.1 dBm
+
+[2023-09-28 15:38:43.696158] [gNB 0][rsc 0][Rx 0][sfn 85][slot 2] DL PRS ToA ==> 8.0 / 4096 samples, peak channel power -54.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.696643] [gNB 1][rsc 0][Rx 0][sfn 85][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -86.8 dBm
+
+[2023-09-28 15:38:43.697132] [gNB 2][rsc 0][Rx 0][sfn 85][slot 4] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -52.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.697762] [gNB 3][rsc 0][Rx 0][sfn 85][slot 5] DL PRS ToA ==> 6.0 / 4096 samples, peak channel power -55.5 dBm, SNR +4.0 dB, rsrp -76.8 dBm
+
+[2023-09-28 15:38:43.703051] [gNB 0][rsc 0][Rx 0][sfn 86][slot 2] DL PRS ToA ==> 11.0 / 4096 samples, peak channel power -53.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.703593] [gNB 1][rsc 0][Rx 0][sfn 86][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -91.6 dBm
+
+[2023-09-28 15:38:43.704079] [gNB 2][rsc 0][Rx 0][sfn 86][slot 4] DL PRS ToA ==> 8.0 / 4096 samples, peak channel power -52.4 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.704678] [gNB 3][rsc 0][Rx 0][sfn 86][slot 5] DL PRS ToA ==> 9.0 / 4096 samples, peak channel power -55.0 dBm, SNR +4.0 dB, rsrp -78.0 dBm
+
+[2023-09-28 15:38:43.709930] [gNB 0][rsc 0][Rx 0][sfn 87][slot 2] DL PRS ToA ==> 7.0 / 4096 samples, peak channel power -52.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.710476] [gNB 1][rsc 0][Rx 0][sfn 87][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -83.1 dBm
+
+[2023-09-28 15:38:43.710964] [gNB 2][rsc 0][Rx 0][sfn 87][slot 4] DL PRS ToA ==> 10.0 / 4096 samples, peak channel power -54.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.711537] [gNB 3][rsc 0][Rx 0][sfn 87][slot 5] DL PRS ToA ==> 10.0 / 4096 samples, peak channel power -54.0 dBm, SNR +4.0 dB, rsrp -77.5 dBm
+
+[2023-09-28 15:38:43.716836] [gNB 0][rsc 0][Rx 0][sfn 88][slot 2] DL PRS ToA ==> 9.0 / 4096 samples, peak channel power -53.4 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.717309] [gNB 1][rsc 0][Rx 0][sfn 88][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -86.1 dBm
+
+[2023-09-28 15:38:43.717782] [gNB 2][rsc 0][Rx 0][sfn 88][slot 4] DL PRS ToA ==> 9.0 / 4096 samples, peak channel power -54.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.718275] [gNB 3][rsc 0][Rx 0][sfn 88][slot 5] DL PRS ToA ==> 7.0 / 4096 samples, peak channel power -52.9 dBm, SNR +4.0 dB, rsrp -77.2 dBm
+
+[2023-09-28 15:38:43.723565] [gNB 0][rsc 0][Rx 0][sfn 89][slot 2] DL PRS ToA ==> 10.0 / 4096 samples, peak channel power -54.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.724054] [gNB 1][rsc 0][Rx 0][sfn 89][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -87.1 dBm
+
+[2023-09-28 15:38:43.724536] [gNB 2][rsc 0][Rx 0][sfn 89][slot 4] DL PRS ToA ==> 1035.0 / 4096 samples, peak channel power -52.4 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.725050] [gNB 3][rsc 0][Rx 0][sfn 89][slot 5] DL PRS ToA ==> 9.0 / 4096 samples, peak channel power -53.1 dBm, SNR +4.0 dB, rsrp -77.0 dBm
+
+[2023-09-28 15:38:43.730209] [gNB 0][rsc 0][Rx 0][sfn 90][slot 2] DL PRS ToA ==> 9.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.730685] [gNB 1][rsc 0][Rx 0][sfn 90][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -86.8 dBm
+
+[2023-09-28 15:38:43.731155] [gNB 2][rsc 0][Rx 0][sfn 90][slot 4] DL PRS ToA ==> 8.0 / 4096 samples, peak channel power -54.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.731753] [gNB 3][rsc 0][Rx 0][sfn 90][slot 5] DL PRS ToA ==> 11.0 / 4096 samples, peak channel power -55.3 dBm, SNR +4.0 dB, rsrp -76.6 dBm
+
+[2023-09-28 15:38:43.736919] [gNB 0][rsc 0][Rx 0][sfn 91][slot 2] DL PRS ToA ==> 9.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.737401] [gNB 1][rsc 0][Rx 0][sfn 91][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -83.1 dBm
+
+[2023-09-28 15:38:43.737878] [gNB 2][rsc 0][Rx 0][sfn 91][slot 4] DL PRS ToA ==> 12.0 / 4096 samples, peak channel power -54.4 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.738382] [gNB 3][rsc 0][Rx 0][sfn 91][slot 5] DL PRS ToA ==> 12.0 / 4096 samples, peak channel power -54.9 dBm, SNR +4.0 dB, rsrp -76.3 dBm
+
+[2023-09-28 15:38:43.743604] [gNB 0][rsc 0][Rx 0][sfn 92][slot 2] DL PRS ToA ==> 12.0 / 4096 samples, peak channel power -53.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.744084] [gNB 1][rsc 0][Rx 0][sfn 92][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -90.1 dBm
+
+[2023-09-28 15:38:43.744565] [gNB 2][rsc 0][Rx 0][sfn 92][slot 4] DL PRS ToA ==> 11.0 / 4096 samples, peak channel power -55.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.745069] [gNB 3][rsc 0][Rx 0][sfn 92][slot 5] DL PRS ToA ==> 9.0 / 4096 samples, peak channel power -55.2 dBm, SNR +4.0 dB, rsrp -77.2 dBm
+
+[2023-09-28 15:38:43.750308] [gNB 0][rsc 0][Rx 0][sfn 93][slot 2] DL PRS ToA ==> 10.0 / 4096 samples, peak channel power -55.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.750783] [gNB 1][rsc 0][Rx 0][sfn 93][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -91.9 dBm
+
+[2023-09-28 15:38:43.751257] [gNB 2][rsc 0][Rx 0][sfn 93][slot 4] DL PRS ToA ==> 10.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.751787] [gNB 3][rsc 0][Rx 0][sfn 93][slot 5] DL PRS ToA ==> 11.0 / 4096 samples, peak channel power -53.6 dBm, SNR +4.0 dB, rsrp -77.9 dBm
+
+[2023-09-28 15:38:43.756855] [gNB 0][rsc 0][Rx 0][sfn 94][slot 2] DL PRS ToA ==> 12.0 / 4096 samples, peak channel power -54.6 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.757384] [gNB 1][rsc 0][Rx 0][sfn 94][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -84.5 dBm
+
+[2023-09-28 15:38:43.757857] [gNB 2][rsc 0][Rx 0][sfn 94][slot 4] DL PRS ToA ==> 1036.0 / 4096 samples, peak channel power -52.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.758501] [gNB 3][rsc 0][Rx 0][sfn 94][slot 5] DL PRS ToA ==> 11.0 / 4096 samples, peak channel power -54.3 dBm, SNR +4.0 dB, rsrp -77.8 dBm
+
+[2023-09-28 15:38:43.763611] [gNB 0][rsc 0][Rx 0][sfn 95][slot 2] DL PRS ToA ==> 13.0 / 4096 samples, peak channel power -54.4 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.764090] [gNB 1][rsc 0][Rx 0][sfn 95][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR -3298743.2 dB, rsrp -83.0 dBm
+
+[2023-09-28 15:38:43.764580] [gNB 2][rsc 0][Rx 0][sfn 95][slot 4] DL PRS ToA ==> 14.0 / 4096 samples, peak channel power -53.8 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.765084] [gNB 3][rsc 0][Rx 0][sfn 95][slot 5] DL PRS ToA ==> 12.0 / 4096 samples, peak channel power -55.0 dBm, SNR +4.0 dB, rsrp -77.0 dBm
+
+[2023-09-28 15:38:43.770304] [gNB 0][rsc 0][Rx 0][sfn 96][slot 2] DL PRS ToA ==> 12.0 / 4096 samples, peak channel power -52.4 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.770795] [gNB 1][rsc 0][Rx 0][sfn 96][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -84.8 dBm
+
+[2023-09-28 15:38:43.771296] [gNB 2][rsc 0][Rx 0][sfn 96][slot 4] DL PRS ToA ==> 13.0 / 4096 samples, peak channel power -54.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.771866] [gNB 3][rsc 0][Rx 0][sfn 96][slot 5] DL PRS ToA ==> 13.0 / 4096 samples, peak channel power -55.5 dBm, SNR +4.0 dB, rsrp -76.2 dBm
+
+[2023-09-28 15:38:43.777250] [gNB 0][rsc 0][Rx 0][sfn 97][slot 2] DL PRS ToA ==> 12.0 / 4096 samples, peak channel power -52.9 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.777739] [gNB 1][rsc 0][Rx 0][sfn 97][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -86.3 dBm
+
+[2023-09-28 15:38:43.778226] [gNB 2][rsc 0][Rx 0][sfn 97][slot 4] DL PRS ToA ==> 13.0 / 4096 samples, peak channel power -54.4 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.778755] [gNB 3][rsc 0][Rx 0][sfn 97][slot 5] DL PRS ToA ==> 12.0 / 4096 samples, peak channel power -54.2 dBm, SNR +4.0 dB, rsrp -76.3 dBm
+
+[2023-09-28 15:38:43.784012] [gNB 0][rsc 0][Rx 0][sfn 98][slot 2] DL PRS ToA ==> 14.0 / 4096 samples, peak channel power -53.4 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.784513] [gNB 1][rsc 0][Rx 0][sfn 98][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -87.1 dBm
+
+[2023-09-28 15:38:43.785001] [gNB 2][rsc 0][Rx 0][sfn 98][slot 4] DL PRS ToA ==> 14.0 / 4096 samples, peak channel power -55.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.785612] [gNB 3][rsc 0][Rx 0][sfn 98][slot 5] DL PRS ToA ==> 12.0 / 4096 samples, peak channel power -54.6 dBm, SNR +4.0 dB, rsrp -76.6 dBm
+
+[2023-09-28 15:38:43.790951] [gNB 0][rsc 0][Rx 0][sfn 99][slot 2] DL PRS ToA ==> 15.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.791446] [gNB 1][rsc 0][Rx 0][sfn 99][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -87.1 dBm
+
+[2023-09-28 15:38:43.791934] [gNB 2][rsc 0][Rx 0][sfn 99][slot 4] DL PRS ToA ==> 1037.0 / 4096 samples, peak channel power -52.1 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.792471] [gNB 3][rsc 0][Rx 0][sfn 99][slot 5] DL PRS ToA ==> 13.0 / 4096 samples, peak channel power -54.7 dBm, SNR +4.0 dB, rsrp -76.9 dBm
+
+[2023-09-28 15:38:43.797709] [gNB 0][rsc 0][Rx 0][sfn 100][slot 2] DL PRS ToA ==> 17.0 / 4096 samples, peak channel power -55.3 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.798201] [gNB 1][rsc 0][Rx 0][sfn 100][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.0 dB, rsrp -85.9 dBm
+
+[2023-09-28 15:38:43.798692] [gNB 2][rsc 0][Rx 0][sfn 100][slot 4] DL PRS ToA ==> 16.0 / 4096 samples, peak channel power -53.4 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.799271] [gNB 3][rsc 0][Rx 0][sfn 100][slot 5] DL PRS ToA ==> 15.0 / 4096 samples, peak channel power -55.6 dBm, SNR +4.0 dB, rsrp -77.2 dBm
+
+[2023-09-28 15:38:43.804496] [gNB 0][rsc 0][Rx 0][sfn 101][slot 2] DL PRS ToA ==> 18.0 / 4096 samples, peak channel power -54.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.804984] [gNB 1][rsc 0][Rx 0][sfn 101][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -84.1 dBm
+
+[2023-09-28 15:38:43.805462] [gNB 2][rsc 0][Rx 0][sfn 101][slot 4] DL PRS ToA ==> 13.0 / 4096 samples, peak channel power -54.6 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.806057] [gNB 3][rsc 0][Rx 0][sfn 101][slot 5] DL PRS ToA ==> 16.0 / 4096 samples, peak channel power -54.6 dBm, SNR +4.0 dB, rsrp -77.6 dBm
+
+[2023-09-28 15:38:43.811261] [gNB 0][rsc 0][Rx 0][sfn 102][slot 2] DL PRS ToA ==> 18.0 / 4096 samples, peak channel power -54.0 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.811750] [gNB 1][rsc 0][Rx 0][sfn 102][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -82.1 dBm
+
+[2023-09-28 15:38:43.812235] [gNB 2][rsc 0][Rx 0][sfn 102][slot 4] DL PRS ToA ==> 15.0 / 4096 samples, peak channel power -54.6 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.812753] [gNB 3][rsc 0][Rx 0][sfn 102][slot 5] DL PRS ToA ==> 16.0 / 4096 samples, peak channel power -54.1 dBm, SNR +4.0 dB, rsrp -77.6 dBm
+
+[2023-09-28 15:38:43.817855] [gNB 0][rsc 0][Rx 0][sfn 103][slot 2] DL PRS ToA ==> 17.0 / 4096 samples, peak channel power -53.7 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.818364] [gNB 1][rsc 0][Rx 0][sfn 103][slot 3] DL PRS ToA ==> 0.0 / 4096 samples, peak channel power -inf dBm, SNR +4.1 dB, rsrp -80.3 dBm
+
+[2023-09-28 15:38:43.818850] [gNB 2][rsc 0][Rx 0][sfn 103][slot 4] DL PRS ToA ==> 15.0 / 4096 samples, peak channel power -54.2 dBm, SNR +4.0 dB, rsrp +nan dBm
+
+[2023-09-28 15:38:43.819423] [gNB 3][rsc 0][Rx 0][sfn 103][slot 5] DL PRS ToA ==> 17.0 / 4096 samples, peak channel power -54.0 dBm, SNR +4.0 dB, rsrp -77.5 dBm
+

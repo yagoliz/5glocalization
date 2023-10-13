@@ -1,92 +1,106 @@
-# 5G positioning
+# Location Estimation Experiment Data
 
+## Structure
 
+This repository contains data from location estimation experiments, including Time of Arrival (TOA) measurements, network configurations, and Channel Impulse Response (CIR) captures.
 
-## Getting started
+### Experiments Directory
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+- The **experiments** directory contains TOA measurements with UE (User Equipment) at 6 different positions, with 3 different bandwidths, without oversampling.
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+### Oversampling Directory
 
-## Add your files
+- The **oversampling** directory contains TOA measurements with UE at 2 different positions (0 and 4) but with varying levels of oversampling (up to x16 in some cases!).
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+### CIR Directory
+
+- The **cir** directory contains TOA measurements and related raw CIR captures.
+
+## Network Configuration
+
+### UE Positions
+
+- UE 0: [1.8, 6.07]
+- UE 1: [1, 6.07]
+- UE 2: [1.8, 9.14]
+- UE 3: [3.28, 2.97]
+- UE 4: [0.58, 2.03]
+- UE 5: [5.28, 7.68]
+
+<img src="./Positions.svg">
+
+### gNB Positions
+
+- gNB 0: [3.87, 12.81]
+- gNB 1: [0, 12.81]
+- gNB 2: [0, 0]
+- gNB 3: [3.84, 0]
+
+### Bandwidth Configurations
+
+#### 40 MHz
+
+- Band: n78
+- SCS (Sub-Carrier Spacing): 30 kHz
+- Sampling Rate: 61.44 MSps
+- TX/RX Frequency: 3.31968 GHz
+
+#### 80 MHz
+
+- Band: n78
+- SCS: 30 kHz
+- Sampling Rate: 92.16 MSps
+- TX/RX Frequency: 3.3393 GHz
+
+#### 100 MHz
+
+- Band: n77
+- SCS: 30 kHz
+- Sampling Rate: 122.88 MSps
+- TX/RX Frequency: 3.94974 GHz
+
+## Experiments
+
+Experiments 0 to 5 refer to five different network configurations with a fixed Base Station (BS) and five different UE positions.
+
+**NB**:
+- For each UE position/experiment, there are multiple TOA measurements at 40/80/100 MHz bandwidth.
+- Example: `exp2_100mhz_0` represents UE position 2, 100 MHz BW, first measurement campaign.
+- Measurements from different campaigns can be merged.
+
+- 80 MHz was relatively unstable, leading to a few subframes with all 4 ToA measurements of the 4 gNBs.
+
+**TOA Measurement Example**:
 
 ```
-cd existing_repo
-git remote add origin https://gitlab.com/ivan.p96/5g-positioning.git
-git branch -M main
-git push -uf origin main
+[2023-09-28 16:51:52.173629] [gNB 0][rsc 0][Rx 0][sfn 645][slot 2] DL PRS ToA ==> -13.0 / 4096 samples, peak channel power -53.9 dBm, SNR -2622080.2 dB, rsrp -77.4 dBm
+
+[2023-09-28 16:51:52.174025] [gNB 1][rsc 0][Rx 0][sfn 645][slot 3] DL PRS ToA ==> -13.0 / 4096 samples, peak channel power -56.8 dBm, SNR -2622080.2 dB, rsrp -78.4 dBm
+
+[2023-09-28 16:51:52.174495] [gNB 2][rsc 0][Rx 0][sfn 645][slot 4] DL PRS ToA ==> -10.0 / 4096 samples, peak channel power -56.6 dBm, SNR -2622080.2 dB, rsrp -83.1 dBm
+
+[2023-09-28 16:51:52.174912] [gNB 3][rsc 0][Rx 0][sfn 645][slot 5] DL PRS ToA ==> -11.0 / 4096 samples, peak channel power -59.0 dBm, SNR -2622080.2 dB, rsrp -84.7 dBm
 ```
 
-## Integrate with your tools
 
-- [ ] [Set up project integrations](https://gitlab.com/ivan.p96/5g-positioning/-/settings/integrations)
+- Consider ToA measurements of the same subframe (sfn).
+- Do not consider ToA measurements with "peak channel power" equal to "-inf" dBm.
 
-## Collaborate with your team
+## Oversampling
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+The `oversampling` directory contains TOA measurement estimations with specified levels of oversampling (1/2/4/8/16).
 
-## Test and Deploy
+**NB**:
+- Higher oversampling leads to higher instability and fewer subframes with multiple ToA measurements of the gNBs.
 
-Use the built-in continuous integration in GitLab.
+## CIR
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+The `cir` directory contains CIR raw files that need to be processed using the OAI script. You can find the script [here](https://gitlab.eurecom.fr/oai/openairinterface5g/-/blob/develop/doc/RUN_NR_PRS.md?ref_type=heads#using-matlaboctave-script-to-visualize-prs-channel-estimates).
 
-***
+## Ideas for Analysis
 
-# Editing this README
+1. Show the improvement in location estimation accuracy by using larger bandwidth.
+2. Demonstrate location estimation accuracy improvement by fixing bandwidth to 100 MHz (more stable) and increasing the number of gNBs from 3 to 4.
+3. Explore the impact of oversampling on location/TDOA (Time Difference of Arrival) estimation accuracy, comparing the same bandwidth with higher oversampling and small bandwidth (40 MHz) with oversampling versus large bandwidth (100 MHz) without oversampling.
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
 
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
