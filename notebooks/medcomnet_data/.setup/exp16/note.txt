@@ -1,0 +1,11 @@
+------------- Posizioni (X,Y) --------------------
+gnb0 (15.6,3)
+gnb1 (0,5.1)
+gnb2 (0,0)
+ue (7,3)
+
+
+------------ misc --------------------
+oversampling 16x -> rep 1, 2, 4
+
+rep 2 -> oversampling 16x, 8x, 4x, 1x
