@@ -27,14 +27,15 @@ This repository contains data from location estimation experiments, including Ti
 - UE 4: [0.58, 2.03]
 - UE 5: [5.28, 7.68]
 
-<img src="./Positions.svg">
-
 ### gNB Positions
 
 - gNB 0: [3.87, 12.81]
 - gNB 1: [0, 12.81]
 - gNB 2: [0, 0]
 - gNB 3: [3.84, 0]
+
+<img src="./Positions.svg">
+
 
 ### Bandwidth Configurations
 
