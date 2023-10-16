@@ -28,7 +28,7 @@ def lls(positions, tdoas):
     """
 
     (A, b) = getMatrices(positions, tdoas)
-    result = np.linalg.lstsq(A, b)[0]
+    result = np.linalg.lstsq(A, b, rcond=None)[0]
     return np.append(result[1].real, result[2].real).reshape((1,-1))
 
 
@@ -37,7 +37,7 @@ def getMatrices(positions, tdoas):
     A = np.zeros((len(tdoas), 3))
     b = np.zeros((len(tdoas), 1))
 
-    for i in range(len(tdoas)):
+    for i in range(len(tdoas)-1):
         # System matrix
         A[i, 0] = -tdoas[i]
         A[i, 1] = positions[0, 0] - positions[i + 1, 0]
