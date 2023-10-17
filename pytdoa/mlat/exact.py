@@ -77,7 +77,7 @@ def fang(positions, tdoas):
         xm = (-e - np.sqrt(discriminant)) / (2 * d)
         ym = g * xm + h
     else:
-        return np.array([[np.nan, np.nan]])
+        return np.array([[np.inf, np.inf]])
 
     # Conversion to absolute coordinates
     # For the positive result

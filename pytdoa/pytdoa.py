@@ -72,9 +72,12 @@ def linoptim(sensors, tdoas, input_type="llh"):
         res = lls.lls(sensors_xyz, tdoas)
     else:
         res = exact.fang(sensors_xyz, tdoas)
-
-    if res.shape[0] > 1:
-        logger.warning("Multiple solutions")
+    
+    if res.shape[0] == 0:
+        print("No solution found")
+        res = np.array([[np.inf,np.inf]])
+    elif res.shape[0] > 1:
+        print("Multiple solutions")
         res = res[0,:]
 
     if input_type == "llh":
@@ -171,7 +174,7 @@ def brutefoptim(
             y = y * 0.1
             st = 2 * x / Ns
 
-    logger.warning("Reached maximum number of iterations")
+    print("Reached maximum number of iterations")
     return Xr
 
 
