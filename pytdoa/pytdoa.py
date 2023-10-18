@@ -150,7 +150,7 @@ def brutefoptim(
         xyrange = (slice(Xr[0] - x, Xr[0] + x, st), slice(Xr[1] - y, Xr[1] + y, st))
 
         summary = optimize.brute(
-            optimfun, xyrange, full_output=True, finish=optimize.minimize, workers=workers
+            optimfun, xyrange, full_output=True, workers=workers
         )
 
         # We update all the values for the next iteration

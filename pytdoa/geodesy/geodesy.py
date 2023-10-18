@@ -21,7 +21,7 @@ from dataclasses import dataclass
 import numpy as np
 
 # Speed of light
-SPEED_OF_LIGHT = 299792458
+SPEED_OF_LIGHT = 299792458.0
 
 # Geodetic class
 @dataclass

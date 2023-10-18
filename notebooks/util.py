@@ -35,3 +35,6 @@ def make_grid(frequency: int, plot_inf: bool = False) -> Tuple[plt.Figure, plt.A
             ax[i,j].set_ylabel('Measured ToA (samples)')
 
     return (fig, ax)
+
+def moving_average(x: np.ndarray, w: int) -> np.ndarray:
+    return np.apply_along_axis(lambda m: np.convolve(m, np.ones(w), mode='same')/w, axis=0, arr=x)
