@@ -43,7 +43,7 @@ def nlls(X, positions, tdoas, combinations):
     return F
 
 
-def nlls_der(X, positions, tdoas, combinations):
+def nlls_der(X, positions, tdoas, combinations, eps=1e-5):
     """
     Jacobian computation for TDOA problems using Non-Linear Least 
     Squares
@@ -63,7 +63,7 @@ def nlls_der(X, positions, tdoas, combinations):
 
     J = np.array([0.0,0.0])
     for i in range(n):
-        Jij = err * ((X[i]-positions[si,i])/(d[si]+1e-3) - (X[i]-positions[sj,i])/(d[sj]+1e-3)).reshape(-1,1)
+        Jij = err * ((X[i]-positions[si,i])/(d[si]+eps) - (X[i]-positions[sj,i])/(d[sj]+eps)).reshape(-1,1)
         J[i] = np.sum(Jij)
 
     return J
