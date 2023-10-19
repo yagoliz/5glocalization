@@ -40,7 +40,7 @@ from pytdoa.geodesy.geodesy import SPEED_OF_LIGHT
 def linoptim(
     sensors: Union[pd.DataFrame, np.ndarray],
     tdoas: Union[pd.DataFrame, np.ndarray],
-    input_type: str = "llh",
+    input_type: str = "xyz",
 ) -> np.ndarray:
     """
     Obtain the position by linear methods
@@ -54,29 +54,26 @@ def linoptim(
     np.array([lat,lon(,altitude)]|[x,y(,z)]) with the resulting coordinates in the desired inputA
     """
 
+    # Sanity checks for input type
     if input_type == "llh":
-        if isinstance(sensors, pd.DataFrame):
-            sensors_llh = sensors[["latitude", "longitude", "height"]].to_numpy()
-        else:
-            sensors_llh = sensors
-        reference_c = np.mean(sensors_llh, axis=0)
+        reference_c = np.mean(sensors, axis=0)
 
         sensors_xyz = geodesy.latlon2xy(
-            sensors_llh[:, 0], sensors_llh[:, 1], reference_c[0], reference_c[1]
+            sensors[:, 0], sensors[:, 1], reference_c[0], reference_c[1]
         )
     elif input_type == "xyz":
-        if isinstance(sensors, pd.DataFrame):
-            sensors_xyz = sensors[["x", "y"]].to_numpy()
-        else:
-            sensors_xyz = sensors
+        sensors_xyz = sensors
+
     else:
         RuntimeError("Unsupported input type. Supported types are: [llh | xyz]")
 
+    # Check whether we call the exact or the least squares routine
     if sensors.shape[0] > 3:
         res = lls.lls(sensors_xyz, tdoas)
     else:
         res = exact.fang(sensors_xyz, tdoas)
 
+    # Output checks (it could happen that we get imaginary or nan results)
     if res.shape[0] == 0:
         print("No solution found")
         res = np.array([[np.inf, np.inf]])
@@ -93,23 +90,23 @@ def linoptim(
 
 
 def brutefoptim(
-    sensors,
-    tdoas,
-    combinations,
-    xrange=200,
-    yrange=200,
-    step=5,
-    epsilon=1e-4,
-    maxiter=10,
-    workers=1,
-    input_type="llh",
-    num_dim=3,
-):
+    sensors: np.ndarray,
+    tdoas: np.ndarray,
+    combinations: np.ndarray,
+    xrange: float = 200.0,
+    yrange: float = 200.0,
+    step: float = 5.0,
+    epsilon: float = 1e-4,
+    maxiter: int = 10,
+    workers: int = 1,
+    input_type: str = "xyz",
+    num_dim: int = 3,
+) -> np.ndarray:
     """
     Obtain the position by brute force
 
     Parameters:
-    sensors: DataFrame with 'latitude','longitude','height' or 'x','y','z' parameters
+    sensors: Numpy array with 'llh' or 'xyz' parameters
     tdoas: array of tdoa values of shape(n-1,1)
     combinations: list with sensor combinations when computing tdoa pairs
     input_type: How positions are represented ([llh | xyz])
@@ -120,21 +117,11 @@ def brutefoptim(
     """
 
     if input_type == "llh":
-        if isinstance(sensors, pd.DataFrame):
-            sensors_xyz = geodesy.llh2ecef(
-                sensors[["latitude", "longitude", "height"]].to_numpy()
-            )
-        else:
-            sensors_xyz = geodesy.llh2ecef(sensors)
+        sensors_xyz = geodesy.llh2ecef(sensors)
 
     elif input_type == "xyz":
-        if isinstance(sensors, pd.DataFrame):
-            if num_dim == 3:
-                sensors_xyz = sensors[["x", "y", "z"]].to_numpy()
-            elif num_dim == 2:
-                sensors_xyz = sensors[["x", "y"]].to_numpy()
-        else:
-            sensors_xyz = sensors
+        sensors_xyz = sensors
+
     else:
         RuntimeError("Unsupported input type. Supported types are: [llh | xyz]")
 
@@ -179,13 +166,13 @@ def brutefoptim(
 
 
 def nonlinoptim(
-    sensors, tdoas, combinations, num_dim=3, p0=None, input_type="llh", method="BFGS"
+    sensors, tdoas, combinations, num_dim=3, p0=None, input_type="xyz", method="BFGS"
 ):
     """
     Obtain the position by non linear methods
 
     Parameters:
-    sensors: DataFrame with 'latitude', 'longitude', 'height' parameters or 'x', 'y', 'z'
+    sensors: numpy array with 'latitude', 'longitude', 'height' parameters or 'x', 'y', 'z'
     tdoas: array of tdoa values of shape(n-1,1)
     combinations: array with combinations per sensor
     num_dim: Number of dimensions (2/3)
@@ -198,53 +185,33 @@ def nonlinoptim(
     """
 
     if input_type == "llh":
-        if isinstance(sensors, pd.DataFrame):
-            sensors_xyz = geodesy.llh2ecef(
-                sensors[["latitude", "longitude", "height"]].to_numpy()
-            )
-        else:
-            sensors_xyz = geodesy.llh2ecef(sensors)
-
-        sensors_mean = np.mean(sensors_xyz, axis=0)
-        sensors_xyz = sensors_xyz - sensors_mean
-        optimfun = lambda X: nlls.nlls(X, sensors_xyz, tdoas, combinations)
-
-        # Minimization routine
-        # If no initial point is given we start at the center
-        if p0 is None:
-            X0 = np.zeros(shape=(num_dim, 1))
-        else:
-            X0 = (geodesy.llh2ecef(p0.reshape(-1, num_dim)) - sensors_mean).reshape(
-                num_dim, 1
-            )
-
-        jac = lambda X: nlls.nlls_der(X, sensors_xyz, tdoas, combinations)
-        summary = optimize.minimize(optimfun, X0, method=method, jac=jac)
-
-        res = np.array(summary.x, copy=False).reshape(-1, 3)
-        return geodesy.ecef2llh(res + sensors_mean).squeeze()
-
+        sensors_xyz = geodesy.llh2ecef(sensors)
+    
     elif input_type == "xyz":
-        if isinstance(sensors, pd.DataFrame):
-            if num_dim == 3:
-                sensors_xyz = sensors[["x", "y", "z"]].to_numpy()
-
-            elif num_dim == 2:
-                sensors_xyz = sensors[["x", "y"]].to_numpy()
-        else:
-            sensors_xyz = sensors
-
-        if p0 is None:
-            X0 = np.zeros(shape=(num_dim, 1))
-        else:
-            X0 = p0
-
-        optimfun = lambda X: nlls.nlls(X, sensors_xyz, tdoas, combinations)
-        jac = lambda X: nlls.nlls_der(X, sensors_xyz, tdoas, combinations)
-        summary = optimize.minimize(optimfun, X0, method=method, jac=jac)
-
-        res = np.array(summary.x, copy=False).reshape(-1, num_dim)
-        return res
+        sensors_xyz = sensors
 
     else:
         RuntimeError("Unsupported input type. Supported types are: [llh | xyz]")
+
+    sensors_mean = np.mean(sensors_xyz, axis=0)
+    sensors_xyz = sensors_xyz - sensors_mean
+    optimfun = lambda X: nlls.nlls(X, sensors_xyz, tdoas, combinations)
+
+    # Minimization routine
+    # If no initial point is given we start at the center
+    if p0 is None:
+        X0 = np.zeros(shape=(num_dim, 1))
+    else:
+        X0 = (geodesy.llh2ecef(p0.reshape(-1, num_dim)) - sensors_mean).reshape(
+            num_dim, 1
+        )
+
+    jac = lambda X: nlls.nlls_der(X, sensors_xyz, tdoas, combinations)
+    summary = optimize.minimize(optimfun, X0, method=method, jac=jac)
+    res = np.array(summary.x, copy=False).reshape(-1, 3)
+
+    if input_type == "llh":
+        return geodesy.ecef2llh(res + sensors_mean).squeeze()
+    
+    elif input_type == "xyz":
+        return res + sensors_mean
