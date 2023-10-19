@@ -36,5 +36,9 @@ def make_grid(frequency: int, plot_inf: bool = False) -> Tuple[plt.Figure, plt.A
 
     return (fig, ax)
 
-def moving_average(x: np.ndarray, w: int) -> np.ndarray:
-    return np.apply_along_axis(lambda m: np.convolve(m, np.ones(w), mode='same')/w, axis=0, arr=x)
+def moving_average(x: np.ndarray, w: int, axis: int = 0) -> np.ndarray:
+    return np.apply_along_axis(lambda m: np.convolve(m, np.ones(w), mode='same')/w, axis=axis, arr=x)
+
+def reject_outliers(data: np.ndarray, m: int = 3, axis: int = 0) -> np.ndarray:
+    mask = ((data - np.median(data, axis=axis)) < m * np.std(data, axis=axis)).all(axis=1-axis)
+    return data[mask,:]
