@@ -22,7 +22,8 @@ from typing import Union
 import numpy as np
 
 # Speed of light
-SPEED_OF_LIGHT = 299792458.0 # m/s
+SPEED_OF_LIGHT = 299792458.0  # m/s
+
 
 # Geodetic class
 @dataclass
@@ -155,18 +156,28 @@ def havdist(ll0: np.ndarray, ll1: np.ndarray) -> np.ndarray:
     return 2 * geoC.WGS84_A * np.arcsin(np.sqrt(hav))
 
 
-def haversine(theta):
+def haversine(theta: Union[float, np.ndarray]) -> np.ndarray:
     return np.sin(theta / 2) ** 2
 
 
-def latlon2xy(lat: float, lon: float, ref_lat: float, ref_lon: float) -> np.ndarray:
+def latlon2xy(
+    lat: Union[float, np.ndarray],
+    lon: Union[float, np.ndarray],
+    ref_lat: float,
+    ref_lon: float,
+) -> np.ndarray:
     y = (lat - ref_lat) / 360 * geoC.CIRCUMFERENCE
     x = (lon - ref_lon) / 360 * np.cos(ref_lat * np.pi / 180) * geoC.CIRCUMFERENCE
 
     return np.hstack((x.reshape(-1, 1), y.reshape(-1, 1)))
 
 
-def xy2latlon(x: float, y: float, ref_lat: float, ref_lon: float) -> np.ndarray:
+def xy2latlon(
+    x: Union[float, np.ndarray],
+    y: Union[float, np.ndarray],
+    ref_lat: float,
+    ref_lon: float,
+) -> np.ndarray:
     lat = (y * 360 / geoC.CIRCUMFERENCE) + ref_lat
     lon = ((x * 360) / (geoC.CIRCUMFERENCE * np.cos(ref_lat * np.pi / 180))) + ref_lon
 

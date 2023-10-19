@@ -22,15 +22,19 @@ from typing import Tuple, Union
 import numpy as np
 import numpy.typing as npt
 
-# Logger startup
-logger = logging.getLogger("UTIL")
-
 # Typing alias for better linting
 ndarray_f64 = npt.NDArray[np.float64]
 ndarray_i64 = npt.NDArray[np.int64]
 
 
-def mse(x: ndarray_f64, y: ndarray_f64, tdoas: ndarray_f64, rx: ndarray_f64, si: ndarray_i64, sj: ndarray_i64) -> ndarray_f64:
+def mse(
+    x: ndarray_f64,
+    y: ndarray_f64,
+    tdoas: ndarray_f64,
+    rx: ndarray_f64,
+    si: ndarray_i64,
+    sj: ndarray_i64,
+) -> ndarray_f64:
     """
     Helper function to evaluate the tdoa cost function at a given x, y vector pair
     """
@@ -44,14 +48,14 @@ def mse(x: ndarray_f64, y: ndarray_f64, tdoas: ndarray_f64, rx: ndarray_f64, si:
     P = np.repeat(P, M, axis=2)
 
     #  Prepare the Receiver matrix
-    Rx = rx.T.reshape((1,2,-1))
+    Rx = rx.T.reshape((1, 2, -1))
     Rx = np.repeat(Rx, N, axis=0)
 
     # Calculate distances between all points and Receivers
     drx = np.sqrt(np.sum(np.square(P - Rx), axis=1)).squeeze()
-    doa = drx[:,si] - drx[:,sj]
+    doa = drx[:, si] - drx[:, sj]
 
-    return np.sum(np.square(tdoas.reshape(1,-1) - doa), axis=1)
+    return np.sum(np.square(tdoas.reshape(1, -1) - doa), axis=1)
 
 
 def generate_heatmap(
@@ -63,7 +67,7 @@ def generate_heatmap(
     step: Union[float, Tuple[float, float]] = 10.0,
     filter: bool = True,
     threshold: float = 0.1,
-    normalize: bool = True
+    normalize: bool = True,
 ) -> ndarray_f64:
     """
     Function that calculates the heatmap of the a given cost function
@@ -106,11 +110,11 @@ def generate_heatmap(
     msefun = lambda x, y: mse(x, y, tdoas, rx, si, sj)
 
     # Core
-    logger.info("Creating heatmap")
+    print("Creating heatmap")
     Z = 1 / msefun(x, y)
     if normalize:
         Z = Z / np.sum(Z)
-    logger.info(f"Heatmap generated with {len(Z)} points")
+    print(f"Heatmap generated with {len(Z)} points")
 
     # Remove values below threshold
     if filter:
@@ -119,10 +123,12 @@ def generate_heatmap(
         y = y[idx]
         Z = Z[idx]
 
-    return np.hstack((x.reshape(-1,1), y.reshape(-1,1), Z.reshape(-1,1)))
+    return np.hstack((x.reshape(-1, 1), y.reshape(-1, 1), Z.reshape(-1, 1)))
 
 
-def generate_hyperbola(tdoa: ndarray_f64, rx1: ndarray_f64, rx2: ndarray_f64, t: ndarray_f64) -> ndarray_f64:
+def generate_hyperbola(
+    tdoa: ndarray_f64, rx1: ndarray_f64, rx2: ndarray_f64, t: ndarray_f64
+) -> ndarray_f64:
     """
     Function that calculates the hyperbola between 2 receivers given a TDOA value.
 
@@ -140,11 +146,11 @@ def generate_hyperbola(tdoa: ndarray_f64, rx1: ndarray_f64, rx2: ndarray_f64, t:
 
     # If estimated tdoa is larger than distance between receivers, we might be in trouble
     if np.abs(tdoa) / 2 > c:
-        logger.warning(
+        print(
             f"Estimated TDOA delay ({tdoa} m) is larger than distance between receivers ({c} m)"
         )
         tdoa = np.sign(tdoa) * 0.995 * c
-        logger.warning(f"Correction TDOA delay to 0.995 RX distance")
+        print(f"Correction TDOA delay to 0.995 RX distance")
 
     # Compute the hyperbola between 2 receivers
     # Note that we can calculate the canonical hyperbola and then transform and rotate
@@ -158,7 +164,9 @@ def generate_hyperbola(tdoa: ndarray_f64, rx1: ndarray_f64, rx2: ndarray_f64, t:
     xpoints = a * np.cosh(t)
     ypoints = b * np.sinh(t)
 
-    X_canonical = np.vstack((np.append(np.flip(xpoints), xpoints), np.append(-np.flip(ypoints), ypoints)))
-    hyp = R @ X_canonical + center.reshape((-1,1))
+    X_canonical = np.vstack(
+        (np.append(np.flip(xpoints), xpoints), np.append(-np.flip(ypoints), ypoints))
+    )
+    hyp = R @ X_canonical + center.reshape((-1, 1))
 
     return hyp

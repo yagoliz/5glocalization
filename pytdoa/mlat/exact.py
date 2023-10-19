@@ -19,10 +19,8 @@
 import logging
 import numpy as np
 
-logger = logging.getLogger("MLAT")
 
-
-def fang(positions, tdoas):
+def fang(positions: np.ndarray, tdoas: np.ndarray) -> np.ndarray:
     """
     Solve the TDOA Equations using Fang's exact solution
     """
@@ -59,9 +57,9 @@ def fang(positions, tdoas):
 
     # We extract the values for g and h
     g = ((tdoas[1] / tdoas[0]) * b - cx) / cy
-    h = (
-        c**2 - tdoas[1] ** 2 + tdoas[0] * tdoas[1] * (1 - (b / tdoas[0]) ** 2)
-    ) / (2 * cy)
+    h = (c**2 - tdoas[1] ** 2 + tdoas[0] * tdoas[1] * (1 - (b / tdoas[0]) ** 2)) / (
+        2 * cy
+    )
 
     # With this we go for the terms of the quadratic equation
     d = -(1 + g**2 - (b / tdoas[0]) ** 2)
@@ -102,8 +100,8 @@ def fang(positions, tdoas):
     # We need to compare whether the signs are the same for the obtained result and the observed tdoa
     if np.sign(rmt_norm) == np.sign(tdoas[0]):
         if x.shape[0] != 0:
-            logger.warning("Multiple solutions exist")
+            print("Multiple solutions exist")
         x = np.append(x, rmt_real[0])
         y = np.append(y, rmt_real[1])
 
-    return np.hstack((x.reshape(-1,1), y.reshape(-1,1)))
+    return np.hstack((x.reshape(-1, 1), y.reshape(-1, 1)))

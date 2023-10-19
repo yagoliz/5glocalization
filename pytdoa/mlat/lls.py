@@ -16,10 +16,12 @@
 #   Authors: Yago Lizarribar <yago.lizarribar [at] imdea [dot] org>
 #
 
+from typing import Tuple
+
 import numpy as np
 
 
-def lls(positions, tdoas):
+def lls(positions: np.ndarray, tdoas: np.ndarray) -> np.ndarray:
     """
     Solve TDOA equations using the Linear Least Squares approach
     The solutions contains the latitude and the longitude of the estimated
@@ -29,15 +31,17 @@ def lls(positions, tdoas):
 
     (A, b) = getMatrices(positions, tdoas)
     result = np.linalg.lstsq(A, b, rcond=None)[0]
-    return np.append(result[1].real, result[2].real).reshape((1,-1))
+    return np.append(result[1].real, result[2].real).reshape((1, -1))
 
 
-def getMatrices(positions, tdoas):
+def getMatrices(
+    positions: np.ndarray, tdoas: np.ndarray
+) -> Tuple(np.ndarray, np.ndarray):
     # Initializing our dear variables
     A = np.zeros((len(tdoas), 3))
     b = np.zeros((len(tdoas), 1))
 
-    for i in range(len(tdoas)-1):
+    for i in range(len(tdoas) - 1):
         # System matrix
         A[i, 0] = -tdoas[i]
         A[i, 1] = positions[0, 0] - positions[i + 1, 0]
