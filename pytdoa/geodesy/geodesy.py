@@ -17,11 +17,12 @@
 #
 
 from dataclasses import dataclass
+from typing import Union
 
 import numpy as np
 
 # Speed of light
-SPEED_OF_LIGHT = 299792458.0
+SPEED_OF_LIGHT = 299792458.0 # m/s
 
 # Geodetic class
 @dataclass
@@ -43,7 +44,7 @@ class geoC:
     wgs84_e2_a: float = WGS84_ECC_SQ * WGS84_A
 
 
-def dist3fromllh(llh0, llh1):
+def dist3fromllh(llh0: np.ndarray, llh1: np.ndarray) -> np.ndarray:
     """
     Computing 3D distance from latitude, longitude and altitude
 
@@ -61,7 +62,7 @@ def dist3fromllh(llh0, llh1):
     return ecef_distance(p0, p1)
 
 
-def ecef_distance(p0, p1):
+def ecef_distance(p0: np.ndarray, p1: np.ndarray) -> np.ndarray:
     """
     Distance from ECEF/Euclidean (XYZ) coordinates
 
@@ -76,7 +77,7 @@ def ecef_distance(p0, p1):
     return np.sqrt(np.sum((p0 - p1) ** 2, axis=1))
 
 
-def llh2ecef(llh):
+def llh2ecef(llh: np.ndarray) -> np.ndarray:
     """
     Compute ECEF distance from latitude, longitude and altitude
 
@@ -106,7 +107,7 @@ def llh2ecef(llh):
     return np.vstack((x, y, z)).T
 
 
-def ecef2llh(ecef):
+def ecef2llh(ecef: np.ndarray) -> np.ndarray:
     """
     Compute latitude, longitude and altitude from ECEF distance
 
@@ -135,15 +136,15 @@ def ecef2llh(ecef):
     return np.vstack((rad2deg(lat), rad2deg(lon), alt)).T
 
 
-def rad2deg(radian):
+def rad2deg(radian: Union[float, np.ndarray]) -> Union[float, np.ndarray]:
     return radian * 180.0 / np.pi
 
 
-def deg2rad(angle):
+def deg2rad(angle: Union[float, np.ndarray]) -> Union[float, np.ndarray]:
     return angle * np.pi / 180.0
 
 
-def havdist(ll0, ll1):
+def havdist(ll0: np.ndarray, ll1: np.ndarray) -> np.ndarray:
     lat0 = deg2rad(ll0[:, 0])
     lon0 = deg2rad(ll0[:, 1])
 
@@ -158,14 +159,14 @@ def haversine(theta):
     return np.sin(theta / 2) ** 2
 
 
-def latlon2xy(lat, lon, ref_lat, ref_lon):
+def latlon2xy(lat: float, lon: float, ref_lat: float, ref_lon: float) -> np.ndarray:
     y = (lat - ref_lat) / 360 * geoC.CIRCUMFERENCE
     x = (lon - ref_lon) / 360 * np.cos(ref_lat * np.pi / 180) * geoC.CIRCUMFERENCE
 
     return np.hstack((x.reshape(-1, 1), y.reshape(-1, 1)))
 
 
-def xy2latlon(x, y, ref_lat, ref_lon):
+def xy2latlon(x: float, y: float, ref_lat: float, ref_lon: float) -> np.ndarray:
     lat = (y * 360 / geoC.CIRCUMFERENCE) + ref_lat
     lon = ((x * 360) / (geoC.CIRCUMFERENCE * np.cos(ref_lat * np.pi / 180))) + ref_lon
 
