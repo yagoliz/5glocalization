@@ -36,7 +36,7 @@ def lls(positions: np.ndarray, tdoas: np.ndarray) -> np.ndarray:
 
 def getMatrices(
     positions: np.ndarray, tdoas: np.ndarray
-) -> Tuple(np.ndarray, np.ndarray):
+) -> Tuple[np.ndarray, np.ndarray]:
     # Initializing our dear variables
     A = np.zeros((len(tdoas), 3))
     b = np.zeros((len(tdoas), 1))

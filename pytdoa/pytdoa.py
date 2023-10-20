@@ -166,8 +166,16 @@ def brutefoptim(
 
 
 def nonlinoptim(
-    sensors, tdoas, combinations, num_dim=3, p0=None, input_type="xyz", method="BFGS"
-):
+    sensors: np.ndarray,
+    tdoas: np.ndarray,
+    combinations: np.ndarray,
+    num_dim: int = 3,
+    p0: np.ndarray = None,
+    input_type: str = "xyz",
+    method: str = "BFGS",
+    use_offset: bool = False,
+    l: float = .2,
+) -> np.ndarray:
     """
     Obtain the position by non linear methods
 
@@ -179,6 +187,8 @@ def nonlinoptim(
     p0: Initial guess for starting position
     input_type: How positions are represented ([llh | xyz])
     method: Method for minimization
+    use_offset: Whether to optimize the offsets of the receivers
+    sigma: Standard deviation of the initialization of the offsets
 
     Returns:
     np.array([llh | xyz]) with the resulting latitude and longitude
@@ -186,32 +196,43 @@ def nonlinoptim(
 
     if input_type == "llh":
         sensors_xyz = geodesy.llh2ecef(sensors)
-    
     elif input_type == "xyz":
         sensors_xyz = sensors
-
     else:
         RuntimeError("Unsupported input type. Supported types are: [llh | xyz]")
 
     sensors_mean = np.mean(sensors_xyz, axis=0)
     sensors_xyz = sensors_xyz - sensors_mean
-    optimfun = lambda X: nlls.nlls(X, sensors_xyz, tdoas, combinations)
 
     # Minimization routine
     # If no initial point is given we start at the center
     if p0 is None:
         X0 = np.zeros(shape=(num_dim, 1))
     else:
-        X0 = (geodesy.llh2ecef(p0.reshape(-1, num_dim)) - sensors_mean).reshape(
-            num_dim, 1
-        )
+        if input_type == "llh":
+            X0 = (geodesy.llh2ecef(p0.reshape(-1, num_dim)) - sensors_mean).reshape(
+                num_dim, 1
+            )
+        else:
+            X0 = p0 - sensors_mean
 
-    jac = lambda X: nlls.nlls_der(X, sensors_xyz, tdoas, combinations)
+    # If user selects to optimize using the offset, we'll have to set a different group of lambdas
+    if use_offset:
+        rnd_offset = np.zeros(sensors.shape[0])
+        X0 = np.append(X0,rnd_offset)
+        optimfun = lambda X: nlls.nlls_with_offset(X, sensors_xyz, tdoas, combinations,l=l)
+        jac = lambda X: nlls.nlls_with_offset_der(X, sensors_xyz, tdoas, combinations,l=l)
+    else:
+        optimfun = lambda X: nlls.nlls(X, sensors_xyz, tdoas, combinations)
+        jac = lambda X: nlls.nlls_der(X, sensors_xyz, tdoas, combinations)
+
+    # Just call the optimization routine now
     summary = optimize.minimize(optimfun, X0, method=method, jac=jac)
-    res = np.array(summary.x, copy=False).reshape(-1, 3)
+    res = np.array(summary.x, copy=False)
 
     if input_type == "llh":
-        return geodesy.ecef2llh(res + sensors_mean).squeeze()
-    
+        return geodesy.ecef2llh(res[0:num_dim] + sensors_mean).squeeze()
+
     elif input_type == "xyz":
-        return res + sensors_mean
+        res[0:num_dim] += sensors_mean
+        return res
