@@ -132,6 +132,6 @@ def nlls_with_offset_der(X, positions, tdoas, combinations, eps=1e-3, l=.1):
         p = (si == i) # When on the right side, derivative it will be 1*err
         m = (sj == i) # When on the left side, derivative it will be -1*err
 
-        J[i+n] = -l*(np.sum(err[p]) - np.sum(err[m]))
+        J[i+n] = l*(np.sum(err[p]) - np.sum(err[m]))
 
     return J
