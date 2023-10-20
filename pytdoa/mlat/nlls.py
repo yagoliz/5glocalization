@@ -128,7 +128,7 @@ def nlls_with_offset_der(X, positions, tdoas, combinations, eps=1e-3, l=.1):
         J[i] = np.sum(Jij)
     
     # Jacobian for offset derivatives
-    for i in range(1,m):
+    for i in range(0,m):
         p = (si == i) # When on the right side, derivative it will be 1*err
         m = (sj == i) # When on the left side, derivative it will be -1*err
 
