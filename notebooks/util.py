@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 
 
-def make_grid(frequency: int, plot_inf: bool = False) -> Tuple[plt.Figure, plt.Axes]:
+def make_grid(frequency: int, plot_inf: bool = False, gnbi: int = 1, gnbj: int = 2) -> Tuple[plt.Figure, plt.Axes]:
     fig, ax = plt.subplots(2, 3, figsize=(12, 8))
 
     for position in range(0, 6):
@@ -32,10 +32,10 @@ def make_grid(frequency: int, plot_inf: bool = False) -> Tuple[plt.Figure, plt.A
             toa_filt.reset_index(drop=True, inplace=True)
 
         i, j = position // 3, position % 3
-        ax[i, j].scatter(x=np.arange(len(toa_filt)), y=toa_filt["gNB1"])
-        ax[i, j].scatter(x=np.arange(len(toa_filt)), y=toa_filt["gNB2"])
+        ax[i, j].scatter(x=np.arange(len(toa_filt)), y=toa_filt[f"gNB{gnbi}"])
+        ax[i, j].scatter(x=np.arange(len(toa_filt)), y=toa_filt[f"gNB{gnbj}"])
 
-        ax[i, j].legend(["gNB1", "gNB2"])
+        ax[i, j].legend([f"gNB{gnbi}", f"gNB{gnbi}"])
 
         ax[i, j].set_xlim([0, len(toa_filt)])
 

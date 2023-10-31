@@ -25,14 +25,10 @@ from typing import Union
 
 import numpy as np
 import pandas as pd
-from scipy.signal import resample
 import scipy.optimize as optimize
 
 from pytdoa.geodesy import geodesy
 from pytdoa.mlat import exact, lls, nlls
-from pytdoa.util import generate_heatmap, generate_hyperbola
-
-from pytdoa.geodesy.geodesy import SPEED_OF_LIGHT
 
 
 ################################################################################

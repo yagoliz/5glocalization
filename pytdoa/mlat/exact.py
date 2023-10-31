@@ -16,7 +16,6 @@
 #   Authors: Yago Lizarribar <yago.lizarribar [at] imdea [dot] org>
 #
 
-import logging
 import numpy as np
 
 

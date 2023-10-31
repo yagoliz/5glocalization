@@ -16,7 +16,6 @@
 #   Authors: Yago Lizarribar <yago.lizarribar [at] imdea [dot] org>
 #
 
-import logging
 from typing import Tuple, Union
 
 import numpy as np
@@ -150,7 +149,7 @@ def generate_hyperbola(
             f"Estimated TDOA delay ({tdoa} m) is larger than distance between receivers ({c} m)"
         )
         tdoa = np.sign(tdoa) * 0.995 * c
-        print(f"Correction TDOA delay to 0.995 RX distance")
+        print("Correction TDOA delay to 0.995 RX distance")
 
     # Compute the hyperbola between 2 receivers
     # Note that we can calculate the canonical hyperbola and then transform and rotate
