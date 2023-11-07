@@ -59,3 +59,22 @@ def reject_outliers(data: np.ndarray, m: int = 3, axis: int = 0) -> np.ndarray:
         axis=1 - axis
     )
     return data[mask, :]
+
+def dop(positions: np.ndarray, receivers: np.ndarray) -> np.ndarray:
+    m = positions.shape[0]
+    n = positions.shape[1]
+    r = receivers.shape[0]
+    assert n == receivers.shape[1], "Incompatible number of dimensions for positions and receivers"
+    
+    # We generate a 1xnxm hypermatrix and extend it with receivers
+    d_vec = np.transpose(positions.reshape(m,n,1),axes=[2,1,0]) - receivers.reshape(r,n,1)
+    d = np.linalg.norm(d_vec, axis=1)
+    d_vec /= (d.reshape(r,1,m)+1e-3)
+
+    # We substract 1st row to all others
+    H = d_vec[0,:,:] - d_vec[1:,:,:]
+    Q = np.linalg.inv(np.matmul(np.transpose(H,axes=[2,1,0]),np.transpose(H,axes=[2,0,1])))
+    Q = np.transpose(Q,axes=[1,2,0])
+    return np.hstack((Q[0,0,:].reshape(-1,1), Q[1,1,:].reshape(-1,1)))
+
+
