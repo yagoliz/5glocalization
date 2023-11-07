@@ -61,7 +61,7 @@ def linoptim(
         sensors_xyz = sensors
 
     else:
-        RuntimeError("Unsupported input type. Supported types are: [llh | xyz]")
+        raise RuntimeError("Unsupported input type. Supported types are: [llh | xyz]")
 
     # Check whether we call the exact or the least squares routine
     if sensors.shape[0] > 3:
@@ -119,7 +119,7 @@ def brutefoptim(
         sensors_xyz = sensors
 
     else:
-        RuntimeError("Unsupported input type. Supported types are: [llh | xyz]")
+        raise RuntimeError("Unsupported input type. Supported types are: [llh | xyz]")
 
     X0 = np.mean(sensors_xyz, axis=0)
 
@@ -195,7 +195,7 @@ def nonlinoptim(
     elif input_type == "xyz":
         sensors_xyz = sensors
     else:
-        RuntimeError("Unsupported input type. Supported types are: [llh | xyz]")
+        raise RuntimeError("Unsupported input type. Supported types are: [llh | xyz]")
 
     sensors_mean = np.mean(sensors_xyz, axis=0)
     sensors_xyz = sensors_xyz - sensors_mean
