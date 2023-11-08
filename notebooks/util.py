@@ -72,7 +72,8 @@ def dop(positions: np.ndarray, receivers: np.ndarray) -> np.ndarray:
     d_vec /= (d.reshape(r,1,m)+1e-3)
 
     # We substract 1st row to all others
-    H = d_vec[0,:,:] - d_vec[1:,:,:]
+    triu_indices = np.triu_indices(r, k=1)
+    H = d_vec[triu_indices[0],:,:] - d_vec[triu_indices[1],:,:]
     Q = np.linalg.inv(np.matmul(np.transpose(H,axes=[2,1,0]),np.transpose(H,axes=[2,0,1])))
     Q = np.transpose(Q,axes=[1,2,0])
     return np.hstack((Q[0,0,:].reshape(-1,1), Q[1,1,:].reshape(-1,1)))
