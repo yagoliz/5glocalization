@@ -63,7 +63,7 @@ def generate_heatmap(
     xrange: Tuple[float, float],
     yrange: Tuple[float, float],
     combinations: ndarray_i64,
-    step: Union[float, Tuple[float, float]] = 10.0,
+    step: Union[int, Tuple[int, int]] = 100,
     filter: bool = True,
     threshold: float = 0.1,
     normalize: bool = True,
@@ -86,17 +86,17 @@ def generate_heatmap(
 
     # Preparing the mesh to evaluate the function at
     if step is tuple:
-        xstep = step[0]
-        ystep = step[1]
+        xnum = step[0]
+        ynum = step[1]
     else:
-        xstep = step
-        ystep = step
+        xnum = step
+        ynum = step
 
     xmin, xmax = xrange
     ymin, ymax = yrange
 
-    xvalues = np.linspace(xmin, xmax, round((xmax - xmin) / xstep))
-    yvalues = np.linspace(ymin, ymax, round((ymax - ymin) / ystep))
+    xvalues = np.linspace(xmin, xmax, xnum, endpoint=True)
+    yvalues = np.linspace(ymin, ymax, ynum, endpoint=True)
 
     xmesh, ymesh = np.meshgrid(xvalues, yvalues)
     x = xmesh.flatten()
@@ -112,7 +112,7 @@ def generate_heatmap(
     print("Creating heatmap")
     Z = 1 / msefun(x, y)
     if normalize:
-        Z = Z / np.sum(Z)
+        Z = Z / np.max(Z)
     print(f"Heatmap generated with {len(Z)} points")
 
     # Remove values below threshold
