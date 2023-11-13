@@ -109,11 +109,9 @@ def generate_heatmap(
     msefun = lambda x, y: mse(x, y, tdoas, rx, si, sj)
 
     # Core
-    print("Creating heatmap")
     Z = 1 / msefun(x, y)
     if normalize:
         Z = Z / np.max(Z)
-    print(f"Heatmap generated with {len(Z)} points")
 
     # Remove values below threshold
     if filter:
