@@ -37,7 +37,7 @@ def nlls(X, positions, tdoas, combinations):
 
     t = (d[si] - d[sj]).reshape(-1, 1)
 
-    err_sq = np.square(t - tdoas)
+    err_sq = np.square(t - tdoas.reshape(-1,1))
     F = 0.5 * np.sum(err_sq)
 
     return F
@@ -59,7 +59,7 @@ def nlls_der(X, positions, tdoas, combinations, eps=1e-3):
 
     t = (d[si] - d[sj]).reshape(-1, 1)
 
-    err = t - tdoas
+    err = t - tdoas.reshape(-1,1)
 
     J = np.array([0.0, 0.0])
     for i in range(n):

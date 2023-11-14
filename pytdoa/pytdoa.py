@@ -168,9 +168,10 @@ def nonlinoptim(
     num_dim: int = 3,
     p0: np.ndarray = None,
     input_type: str = "xyz",
-    method: str = "BFGS",
+    method: str = "L-BFGS-B",
     use_offset: bool = False,
     l: float = .2,
+    s: float = 1.0,
 ) -> np.ndarray:
     """
     Obtain the position by non linear methods
@@ -218,12 +219,19 @@ def nonlinoptim(
         X0 = np.append(X0,rnd_offset)
         optimfun = lambda X: nlls.nlls_with_offset(X, sensors_xyz, tdoas, combinations,l=l)
         jac = lambda X: nlls.nlls_with_offset_der(X, sensors_xyz, tdoas, combinations,l=l)
+        lb = np.min(sensors_xyz,axis=0)
+        lb = np.append(lb,-s*np.ones(sensors_xyz.shape[0]))
+        ub = np.max(sensors_xyz,axis=0)
+        ub = np.append(ub,s*np.ones(sensors_xyz.shape[0]))
+        bounds = optimize.Bounds(lb, ub, True)
     else:
         optimfun = lambda X: nlls.nlls(X, sensors_xyz, tdoas, combinations)
         jac = lambda X: nlls.nlls_der(X, sensors_xyz, tdoas, combinations)
+        
+        bounds = optimize.Bounds(np.min(sensors_xyz,axis=0),np.max(sensors_xyz,axis=0), False)
 
     # Just call the optimization routine now
-    summary = optimize.minimize(optimfun, X0, method=method, jac=jac)
+    summary = optimize.minimize(optimfun, X0, method=method, jac=jac, bounds=bounds)
     res = np.array(summary.x, copy=False)
 
     if input_type == "llh":
