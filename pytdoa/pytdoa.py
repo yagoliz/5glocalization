@@ -27,7 +27,7 @@ import numpy as np
 import pandas as pd
 import scipy.optimize as optimize
 
-from pytdoa.geodesy import geodesy
+import pytdoa.geodesy as geodesy
 from pytdoa.mlat import exact, lls, nlls
 
 

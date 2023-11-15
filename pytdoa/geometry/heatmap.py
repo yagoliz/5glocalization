@@ -35,7 +35,18 @@ def mse(
     sj: ndarray_i64,
 ) -> ndarray_f64:
     """
-    Helper function to evaluate the tdoa cost function at a given x, y vector pair
+    Evaluate the tdoa cost function at a given x, y vector pair list
+
+    Parameters:
+    x: X coordinates as an Nx1-sized array
+    y: Y coordinates as an Nx1-sized array
+    tdoas: Measured TDOA values for the selected receiver combinations
+    rx: Receiver positions as an Mx2-sized array
+    si: Left-hand receiver combination for tdoa computation
+    sj: Right-hand receiver combination for tdoa computation
+
+    Returns:
+    np.array(N,1) with mean squared error for the given X,Y pairs
     """
 
     N = x.shape[0]
@@ -106,7 +117,8 @@ def generate_heatmap(
     si: ndarray_i64 = combinations[:, 0]
     sj: ndarray_i64 = combinations[:, 1]
 
-    msefun = lambda x, y: mse(x, y, tdoas, rx, si, sj)
+    def msefun(x,y):
+        mse(x, y, tdoas, rx, si, sj)
 
     # Core
     Z = 1 / msefun(x, y)
@@ -122,48 +134,3 @@ def generate_heatmap(
 
     return np.hstack((x.reshape(-1, 1), y.reshape(-1, 1), Z.reshape(-1, 1)))
 
-
-def generate_hyperbola(
-    tdoa: ndarray_f64, rx1: ndarray_f64, rx2: ndarray_f64, t: ndarray_f64
-) -> ndarray_f64:
-    """
-    Function that calculates the hyperbola between 2 receivers given a TDOA value.
-
-    Parameters:
-    tdoa: TDOA value between receiver 1 and 2
-    rx1: np.array of shape (1,2) with the planar coordinates of receiver 1
-    rx2: np.array of shape (1,2) with the planar coordiantes of receiver 2
-    t: parametric points to evaluate the hyperbola at
-
-    Returns:
-    np.array(2,len(t)) with the x, y coordinates of the hyperbola for a given array t
-    """
-
-    c = np.linalg.norm(rx2 - rx1) / 2
-
-    # If estimated tdoa is larger than distance between receivers, we might be in trouble
-    if np.abs(tdoa) / 2 > c:
-        print(
-            f"Estimated TDOA delay ({tdoa} m) is larger than distance between receivers ({c} m)"
-        )
-        tdoa = np.sign(tdoa) * 0.995 * c
-        print("Correction TDOA delay to 0.995 RX distance")
-
-    # Compute the hyperbola between 2 receivers
-    # Note that we can calculate the canonical hyperbola and then transform and rotate
-    center = (rx2 + rx1) / 2
-    theta = np.arctan2((rx2[1] - rx1[1]), (rx2[0] - rx1[0]))
-
-    R = np.array([[np.cos(theta), -np.sin(theta)], [np.sin(theta), np.cos(theta)]])
-    a = tdoa / 2
-    b = np.sqrt(c**2 - a**2)
-
-    xpoints = a * np.cosh(t)
-    ypoints = b * np.sinh(t)
-
-    X_canonical = np.vstack(
-        (np.append(np.flip(xpoints), xpoints), np.append(-np.flip(ypoints), ypoints))
-    )
-    hyp = R @ X_canonical + center.reshape((-1, 1))
-
-    return hyp
