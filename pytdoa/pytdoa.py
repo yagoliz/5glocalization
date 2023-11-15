@@ -168,7 +168,7 @@ def nonlinoptim(
     num_dim: int = 3,
     p0: np.ndarray = None,
     input_type: str = "xyz",
-    method: str = "L-BFGS-B",
+    method: str = "SLSQP",
     use_offset: bool = False,
     l: float = .2,
     s: float = 1.0,
@@ -228,7 +228,7 @@ def nonlinoptim(
         optimfun = lambda X: nlls.nlls(X, sensors_xyz, tdoas, combinations)
         jac = lambda X: nlls.nlls_der(X, sensors_xyz, tdoas, combinations)
         
-        bounds = optimize.Bounds(np.min(sensors_xyz,axis=0),np.max(sensors_xyz,axis=0), False)
+        bounds = optimize.Bounds(np.min(sensors_xyz,axis=0)-s,np.max(sensors_xyz,axis=0)+s, False)
 
     # Just call the optimization routine now
     summary = optimize.minimize(optimfun, X0, method=method, jac=jac, bounds=bounds)
