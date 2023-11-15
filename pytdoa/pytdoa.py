@@ -168,7 +168,7 @@ def nonlinoptim(
     num_dim: int = 3,
     p0: np.ndarray = None,
     input_type: str = "xyz",
-    method: str = "SLSQP",
+    method: str = "L-BFGS-B",
     use_offset: bool = False,
     l: float = .2,
     s: float = 1.0,
@@ -219,9 +219,9 @@ def nonlinoptim(
         X0 = np.append(X0,rnd_offset)
         optimfun = lambda X: nlls.nlls_with_offset(X, sensors_xyz, tdoas, combinations,l=l)
         jac = lambda X: nlls.nlls_with_offset_der(X, sensors_xyz, tdoas, combinations,l=l)
-        lb = np.min(sensors_xyz,axis=0)
+        lb = np.min(sensors_xyz,axis=0) - s
         lb = np.append(lb,-s*np.ones(sensors_xyz.shape[0]))
-        ub = np.max(sensors_xyz,axis=0)
+        ub = np.max(sensors_xyz,axis=0) + s
         ub = np.append(ub,s*np.ones(sensors_xyz.shape[0]))
         bounds = optimize.Bounds(lb, ub, True)
     else:

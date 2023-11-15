@@ -35,7 +35,7 @@ def make_grid(frequency: int, plot_inf: bool = False, gnbi: int = 1, gnbj: int =
         ax[i, j].scatter(x=np.arange(len(toa_filt)), y=toa_filt[f"gNB{gnbi}"])
         ax[i, j].scatter(x=np.arange(len(toa_filt)), y=toa_filt[f"gNB{gnbj}"])
 
-        ax[i, j].legend([f"gNB{gnbi}", f"gNB{gnbi}"])
+        ax[i, j].legend([f"gNB{gnbi}", f"gNB{gnbj}"])
 
         ax[i, j].set_xlim([0, len(toa_filt)])
 

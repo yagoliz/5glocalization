@@ -37,7 +37,7 @@ def nlls(X, positions, tdoas, combinations):
 
     t = (d[si] - d[sj]).reshape(-1, 1)
 
-    err_sq = np.square(t - tdoas.reshape(-1,1))
+    err_sq = np.square(t - tdoas.reshape(-1, 1))
     F = 0.5 * np.sum(err_sq)
 
     return F
@@ -59,7 +59,7 @@ def nlls_der(X, positions, tdoas, combinations, eps=1e-3):
 
     t = (d[si] - d[sj]).reshape(-1, 1)
 
-    err = t - tdoas.reshape(-1,1)
+    err = t - tdoas.reshape(-1, 1)
 
     J = np.array([0.0, 0.0])
     for i in range(n):
@@ -72,7 +72,7 @@ def nlls_der(X, positions, tdoas, combinations, eps=1e-3):
     return J
 
 
-def nlls_with_offset(X, positions, tdoas, combinations, l=.1):
+def nlls_with_offset(X, positions, tdoas, combinations, l=0.1):
     """
     Solve TDOA equations using the Non-Linear Least Squares approach
     The solutions contain the ecef coordinates of the estimated
@@ -81,7 +81,7 @@ def nlls_with_offset(X, positions, tdoas, combinations, l=.1):
     """
 
     n = positions.shape[1]
-    offsets = X[n:] # We assume first offset to be 0
+    offsets = X[n:]  # We assume first offset to be 0
     d = geodesy.ecef_distance(positions, X[0:n])
 
     si = combinations[:, 0]
@@ -90,13 +90,13 @@ def nlls_with_offset(X, positions, tdoas, combinations, l=.1):
     t = (d[si] - d[sj]).reshape(-1, 1)
     o = (offsets[si] - offsets[sj]).reshape(-1, 1)
 
-    err_sq = np.square((t + l*o) - tdoas.reshape(-1,1))
+    err_sq = np.square((t + l * o) - tdoas.reshape(-1, 1))
     F = 0.5 * np.sum(err_sq)
 
     return F
 
 
-def nlls_with_offset_der(X, positions, tdoas, combinations, eps=1e-3, l=.1):
+def nlls_with_offset_der(X, positions, tdoas, combinations, eps=1e-3, l=0.1):
     """
     Solve TDOA equations using the Non-Linear Least Squares approach
     The solutions contain the ecef coordinates of the estimated
@@ -116,7 +116,7 @@ def nlls_with_offset_der(X, positions, tdoas, combinations, eps=1e-3, l=.1):
     t = (d[si] - d[sj]).reshape(-1, 1)
     o = (offsets[si] - offsets[sj]).reshape(-1, 1)
 
-    err = (t + l*o) - tdoas.reshape(-1,1)
+    err = (t + l * o) - tdoas.reshape(-1, 1)
 
     J = np.zeros(np.max(X.shape))
     # Jacobian for position derivatives
@@ -126,12 +126,12 @@ def nlls_with_offset_der(X, positions, tdoas, combinations, eps=1e-3, l=.1):
             - (X[i] - positions[sj, i]) / (d[sj] + eps)
         ).reshape(-1, 1)
         J[i] = np.sum(Jij)
-    
-    # Jacobian for offset derivatives
-    for i in range(0,m):
-        p = (si == i) # When on the right side, derivative it will be 1*err
-        m = (sj == i) # When on the left side, derivative it will be -1*err
 
-        J[i+n] = l*(np.sum(err[p]) - np.sum(err[m]))
+    # Jacobian for offset derivatives
+    for i in range(0, m):
+        p = si == i  # When on the right side, derivative it will be 1*err
+        m = sj == i  # When on the left side, derivative it will be -1*err
+
+        J[i + n] = l * (np.sum(err[p]) - np.sum(err[m]))
 
     return J

@@ -38,13 +38,10 @@ def fang(positions: np.ndarray, tdoas: np.ndarray) -> np.ndarray:
 
     # Calculate the angle between s1 and s2
     theta = np.arctan2((s2[1] - s1[1]), (s2[0] - s1[0]))
-    R = np.array(
-        [[np.cos(theta), -np.sin(theta)], [np.sin(theta), np.cos(theta)]]
-    ).squeeze()
+    R = np.array([[np.cos(theta), -np.sin(theta)],
+                  [np.sin(theta), np.cos(theta)]]).squeeze()
 
     # Rotate the vectors
-    s1_rot = np.array([0.0, 0.0])
-
     s2_rot = (R.T @ (s2 - s1)).squeeze()
     s3_rot = (R.T @ (s3 - s1)).squeeze()
 
@@ -56,14 +53,13 @@ def fang(positions: np.ndarray, tdoas: np.ndarray) -> np.ndarray:
 
     # We extract the values for g and h
     g = ((tdoas[1] / tdoas[0]) * b - cx) / cy
-    h = (c**2 - tdoas[1] ** 2 + tdoas[0] * tdoas[1] * (1 - (b / tdoas[0]) ** 2)) / (
-        2 * cy
-    )
+    h = (c**2 - tdoas[1]**2 + tdoas[0] * tdoas[1] *
+         (1 - (b / tdoas[0])**2)) / (2 * cy)
 
     # With this we go for the terms of the quadratic equation
-    d = -(1 + g**2 - (b / tdoas[0]) ** 2)
-    e = b * (1 - (b / tdoas[0]) ** 2) - 2 * g * h
-    f = tdoas[0] ** 2 / 4 * (1 - (b / tdoas[0]) ** 2) ** 2 - h**2
+    d = -(1 + g**2 - (b / tdoas[0])**2)
+    e = b * (1 - (b / tdoas[0])**2) - 2 * g * h
+    f = tdoas[0]**2 / 4 * (1 - (b / tdoas[0])**2)**2 - h**2
 
     # Terms for x and y (positions)
     discriminant = e**2 - 4 * d * f
@@ -84,7 +80,8 @@ def fang(positions: np.ndarray, tdoas: np.ndarray) -> np.ndarray:
     rpt_real = rpt.real
     rpt_norm = np.linalg.norm(rpt_real - s1) - np.linalg.norm(rpt_real - s2)
 
-    # We need to compare whether the signs are the same for the obtained result and the observed tdoa
+    # We need to compare whether the signs are the same for the obtained
+    # result and the observed tdoa
     if np.sign(rpt_norm) == np.sign(tdoas[0]):
         x = np.append(x, rpt_real[0])
         y = np.append(y, rpt_real[1])
@@ -96,7 +93,8 @@ def fang(positions: np.ndarray, tdoas: np.ndarray) -> np.ndarray:
     rmt_real = rmt.real
     rmt_norm = np.linalg.norm(rmt_real - s1) - np.linalg.norm(rmt_real - s2)
 
-    # We need to compare whether the signs are the same for the obtained result and the observed tdoa
+    # We need to compare whether the signs are the same for the obtained
+    # result and the observed tdoa
     if np.sign(rmt_norm) == np.sign(tdoas[0]):
         if x.shape[0] != 0:
             print("Multiple solutions exist")

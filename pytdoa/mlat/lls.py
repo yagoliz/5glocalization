@@ -41,7 +41,7 @@ def getMatrices(
     A = np.zeros((len(tdoas), 3))
     b = np.zeros((len(tdoas), 1))
 
-    for i in range(positions.shape[0]-1):
+    for i in range(positions.shape[0] - 1):
         # System matrix
         A[i, 0] = -tdoas[i]
         A[i, 1] = positions[0, 0] - positions[i + 1, 0]
