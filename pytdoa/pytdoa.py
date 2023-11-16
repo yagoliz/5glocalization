@@ -41,12 +41,12 @@ def linoptim(
     """
     Obtain the position by linear methods
 
-    Parameters:
+    ## Parameters:
     sensors: DataFrame with 'latitude','longitude','height' or 'x','y','z' parameters
     tdoas: array of tdoa values of shape(n-1,1)
     input_type: How positions are represented ([llh | xyz])
 
-    Returns:
+    ## Returns:
     np.array([lat,lon(,altitude)]|[x,y(,z)]) with the resulting coordinates in the desired inputA
     """
 
@@ -101,14 +101,14 @@ def brutefoptim(
     """
     Obtain the position by brute force
 
-    Parameters:
+    ## Parameters:
     sensors: Numpy array with 'llh' or 'xyz' parameters
     tdoas: array of tdoa values of shape(n-1,1)
     combinations: list with sensor combinations when computing tdoa pairs
     input_type: How positions are represented ([llh | xyz])
     num_dim: How many dimensions (2D/3D positioning)
 
-    Returns:
+    ## Returns:
     np.array([llh | xyz]) with the resulting latitude and longitude
     """
 
@@ -123,7 +123,8 @@ def brutefoptim(
 
     X0 = np.mean(sensors_xyz, axis=0)
 
-    optimfun = lambda X: nlls.nlls(X, sensors_xyz, tdoas, combinations)
+    def optimfun(X):
+        return nlls.nlls(X, sensors_xyz, tdoas, combinations)
 
     Xr = np.array([X0[0], X0[1]])
     F_prev = None
@@ -170,8 +171,8 @@ def nonlinoptim(
     input_type: str = "xyz",
     method: str = "L-BFGS-B",
     use_offset: bool = False,
-    l: float = .2,
-    s: float = 1.0,
+    offset_weight: float = 0.2,
+    search_size: float = 1.0,
 ) -> np.ndarray:
     """
     Obtain the position by non linear methods
@@ -216,19 +217,33 @@ def nonlinoptim(
     # If user selects to optimize using the offset, we'll have to set a different group of lambdas
     if use_offset:
         rnd_offset = np.zeros(sensors.shape[0])
-        X0 = np.append(X0,rnd_offset)
-        optimfun = lambda X: nlls.nlls_with_offset(X, sensors_xyz, tdoas, combinations,l=l)
-        jac = lambda X: nlls.nlls_with_offset_der(X, sensors_xyz, tdoas, combinations,l=l)
-        lb = np.min(sensors_xyz,axis=0) - s
-        lb = np.append(lb,-s*np.ones(sensors_xyz.shape[0]))
-        ub = np.max(sensors_xyz,axis=0) + s
-        ub = np.append(ub,s*np.ones(sensors_xyz.shape[0]))
+        X0 = np.append(X0, rnd_offset)
+
+        # As for Ruff linter, these should be defs and not lambdas
+        def optimfun(X):
+            return nlls.nlls_with_offset(X, sensors_xyz, tdoas, combinations, offset_weight=offset_weight)
+
+        def jac(X):
+            return nlls.nlls_with_offset_der(X, sensors_xyz, tdoas, combinations, offset_weight=offset_weight)
+
+        # Define the lower and upper bounds
+        lb = np.min(sensors_xyz, axis=0) - search_size
+        lb = np.append(lb, -search_size * np.ones(sensors_xyz.shape[0]))
+        ub = np.max(sensors_xyz, axis=0) + search_size
+        ub = np.append(ub, search_size * np.ones(sensors_xyz.shape[0]))
         bounds = optimize.Bounds(lb, ub, True)
+
     else:
-        optimfun = lambda X: nlls.nlls(X, sensors_xyz, tdoas, combinations)
-        jac = lambda X: nlls.nlls_der(X, sensors_xyz, tdoas, combinations)
-        
-        bounds = optimize.Bounds(np.min(sensors_xyz,axis=0)-s,np.max(sensors_xyz,axis=0)+s, False)
+
+        def optimfun(X):
+            return nlls.nlls(X, sensors_xyz, tdoas, combinations)
+
+        def jac(X):
+            return nlls.nlls_der(X, sensors_xyz, tdoas, combinations)
+
+        bounds = optimize.Bounds(
+            np.min(sensors_xyz, axis=0) - search_size, np.max(sensors_xyz, axis=0) + search_size, False
+        )
 
     # Just call the optimization routine now
     summary = optimize.minimize(optimfun, X0, method=method, jac=jac, bounds=bounds)

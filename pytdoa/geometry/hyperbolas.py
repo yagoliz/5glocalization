@@ -29,13 +29,13 @@ def generate_hyperbola(
     """
     Function that calculates the hyperbola between 2 receivers given a TDOA value.
 
-    Parameters:
+    ## Parameters:
     tdoa: TDOA value between receiver 1 and 2
     rx1: np.array of shape (1,2) with the planar coordinates of receiver 1
     rx2: np.array of shape (1,2) with the planar coordiantes of receiver 2
     t: parametric points to evaluate the hyperbola at
 
-    Returns:
+    ## Returns:
     np.array(2,len(t)) with the x, y coordinates of the hyperbola for a given array t
     """
 

@@ -72,7 +72,7 @@ def nlls_der(X, positions, tdoas, combinations, eps=1e-3):
     return J
 
 
-def nlls_with_offset(X, positions, tdoas, combinations, l=0.1):
+def nlls_with_offset(X, positions, tdoas, combinations, offset_weight=0.1):
     """
     Solve TDOA equations using the Non-Linear Least Squares approach
     The solutions contain the ecef coordinates of the estimated
@@ -90,13 +90,15 @@ def nlls_with_offset(X, positions, tdoas, combinations, l=0.1):
     t = (d[si] - d[sj]).reshape(-1, 1)
     o = (offsets[si] - offsets[sj]).reshape(-1, 1)
 
-    err_sq = np.square((t + l * o) - tdoas.reshape(-1, 1))
+    err_sq = np.square((t + offset_weight * o) - tdoas.reshape(-1, 1))
     F = 0.5 * np.sum(err_sq)
 
     return F
 
 
-def nlls_with_offset_der(X, positions, tdoas, combinations, eps=1e-3, l=0.1):
+def nlls_with_offset_der(
+    X, positions, tdoas, combinations, eps=1e-3, offset_weight=0.1
+):
     """
     Solve TDOA equations using the Non-Linear Least Squares approach
     The solutions contain the ecef coordinates of the estimated
@@ -132,6 +134,6 @@ def nlls_with_offset_der(X, positions, tdoas, combinations, eps=1e-3, l=0.1):
         p = si == i  # When on the right side, derivative it will be 1*err
         m = sj == i  # When on the left side, derivative it will be -1*err
 
-        J[i + n] = l * (np.sum(err[p]) - np.sum(err[m]))
+        J[i + n] = offset_weight * (np.sum(err[p]) - np.sum(err[m]))
 
     return J

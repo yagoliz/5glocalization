@@ -21,7 +21,7 @@ from typing import Union
 
 import numpy as np
 
-# Speed of light
+# Speed of light as per: https://www.nist.gov/si-redefinition/definitions-si-base-units
 SPEED_OF_LIGHT = 299792458.0  # m/s
 
 
@@ -49,11 +49,11 @@ def dist3fromllh(llh0: np.ndarray, llh1: np.ndarray) -> np.ndarray:
     """
     Computing 3D distance from latitude, longitude and altitude
 
-    Parameters:
+    ## Parameters:
     llh0: numpy array of shape(N,3)
     llh1: numpy array of shape(N,3)
 
-    Returns:
+    ## Returns:
     np.array(N,3): 3D distance
     """
 
@@ -67,11 +67,11 @@ def ecef_distance(p0: np.ndarray, p1: np.ndarray) -> np.ndarray:
     """
     Distance from ECEF/Euclidean (XYZ) coordinates
 
-    Parameters:
+    ## Parameters:
     p0: numpy array of shape(N,num_dim)
     p1: numpy array of shape(N,num_dim)
 
-    Returns:
+    ## Returns:
     np.array(N,num_dim): 2D,3D distance
     """
 
@@ -82,10 +82,10 @@ def llh2ecef(llh: np.ndarray) -> np.ndarray:
     """
     Compute ECEF distance from latitude, longitude and altitude
 
-    Parameters:
+    ## Parameters:
     llh: numpy array of shape(N,3)
 
-    Returns:
+    ## Returns:
     np.array(N,3): ECEF distance
     """
 
@@ -112,12 +112,16 @@ def ecef2llh(ecef: np.ndarray) -> np.ndarray:
     """
     Compute latitude, longitude and altitude from ECEF distance
 
-    Parameters:
+    ## Parameters:
     ecef: numpy array of shape(N,3)
 
-    Returns:
+    ## Returns:
     np.array(N,3): latitude, longitude, altitude
     """
+
+    assert (
+        ecef.shape[1] == 3
+    ), f"You need to set your data as an Nx3 matrix. The number of columns was: {ecef.shape[1]}"
 
     x = ecef[:, 0]
     y = ecef[:, 1]
@@ -146,6 +150,16 @@ def deg2rad(angle: Union[float, np.ndarray]) -> Union[float, np.ndarray]:
 
 
 def havdist(ll0: np.ndarray, ll1: np.ndarray) -> np.ndarray:
+    """
+    Haversine distance between arrays of <latitude,longitude> pairs
+
+    ## Parameters:
+    ll0: numpy array of shape(N,2)
+    ll1: numpy array of shape(N,2)
+
+    ## Returns:
+    np.array(N,1): Array with N distances between pairs in ll0 and ll1
+    """
     lat0 = deg2rad(ll0[:, 0])
     lon0 = deg2rad(ll0[:, 1])
 

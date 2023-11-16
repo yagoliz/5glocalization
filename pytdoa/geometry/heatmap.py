@@ -37,7 +37,7 @@ def mse(
     """
     Evaluate the tdoa cost function at a given x, y vector pair list
 
-    Parameters:
+    ## Parameters:
     x: X coordinates as an Nx1-sized array
     y: Y coordinates as an Nx1-sized array
     tdoas: Measured TDOA values for the selected receiver combinations
@@ -45,7 +45,7 @@ def mse(
     si: Left-hand receiver combination for tdoa computation
     sj: Right-hand receiver combination for tdoa computation
 
-    Returns:
+    ## Returns:
     np.array(N,1) with mean squared error for the given X,Y pairs
     """
 
