@@ -16,6 +16,16 @@ This repository contains data from location estimation experiments, including Ti
 
 - The **cir** directory contains TOA measurements and related raw CIR captures.
 
+### Notebooks Directory
+
+- The **analysis** and **results** of the experiments are located here, together with the code to generate the figures.
+
+- For the SciencePlots package, you need to install a custom version located [here](https://github.com/yagoliz/SciencePlots/tree/master). You can install it with this command:
+
+```bash
+pip install git+https://github.com/yagoliz/SciencePlots.git
+```
+
 ## Network Configuration
 
 ### UE Positions
