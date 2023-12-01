@@ -1,0 +1,5 @@
+Measurements,Value,Mean,Minimum,Maximum,Std. Dev.,Count
+Freq(Ch2),1.0Hz,1.0000008,1.0,1.0,13.2n,34.0,
+Freq(Ch1),1.0Hz,1.0000002,1.0,1.0,36.72n,34.0,
+Delay(Ch1,Ch2),65.98ms,66.033595m,65.98m,66.08m,29.47µ,34.0,
+
