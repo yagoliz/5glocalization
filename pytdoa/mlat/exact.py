@@ -70,21 +70,21 @@ def fang(positions: np.ndarray, tdoas: np.ndarray) -> np.ndarray:
         xm = (-e - np.sqrt(discriminant)) / (2 * d)
         ym = g * xm + h
     else:
-        return np.array([[np.inf, np.inf]])
+        return np.array([[np.nan, np.nan]])
 
     # Conversion to absolute coordinates
     # For the positive result
     rp = R @ np.array([xp, yp])
-    rpt = rp + s1
+    rpt = rp + s1.T
 
     rpt_real = rpt.real
-    rpt_norm = np.linalg.norm(rpt_real - s1) - np.linalg.norm(rpt_real - s2)
+    rpt_norm = np.linalg.norm(rpt_real - s1.T) - np.linalg.norm(rpt_real - s2.T)
 
     # We need to compare whether the signs are the same for the obtained
     # result and the observed tdoa
     if np.sign(rpt_norm) == np.sign(tdoas[0]):
-        x = np.append(x, rpt_real[0])
-        y = np.append(y, rpt_real[1])
+        x = np.append(x, rpt_real[0,0])
+        y = np.append(y, rpt_real[0,1])
 
     # For the negative result
     rm = R @ np.array([xm, ym])
@@ -98,7 +98,7 @@ def fang(positions: np.ndarray, tdoas: np.ndarray) -> np.ndarray:
     if np.sign(rmt_norm) == np.sign(tdoas[0]):
         if x.shape[0] != 0:
             print("Multiple solutions exist")
-        x = np.append(x, rmt_real[0])
-        y = np.append(y, rmt_real[1])
+        x = np.append(x, rmt_real[0,0])
+        y = np.append(y, rmt_real[0,1])
 
     return np.hstack((x.reshape(-1, 1), y.reshape(-1, 1)))
